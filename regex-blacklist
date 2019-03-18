@@ -1,4 +1,4 @@
-^\#
+^[ ]*[	]*\#
 (^|\.)1\.f\.ix\.de$
 (^|\.)2mdn\.net$
 (^|\.)6\.googlevideo\.com$
@@ -275,6 +275,7 @@ amp-analytics
 (^|\.)starwave\.com$
 (^|\.)gamespy\.com$
 (^|\.)qualtrics\.com$
+(^|\.)web3000\.com$
 (^|\.)ebayrtm\.com$
 (^|\.)lenta\.ru$
 (^|\.)research\.de\.com$
