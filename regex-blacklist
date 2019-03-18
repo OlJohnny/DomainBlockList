@@ -327,3 +327,7 @@ amp-analytics
 ^telemetry[-.]
 ^track(ers?|ing)?[0-9]*[-.]
 ^traff(ic)?[-.]
+
+
+# For proper execution of make-blocklist.sh
+^\#
