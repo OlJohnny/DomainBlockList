@@ -1,5 +1,4 @@
-# Wildcards
-
+^\#
 (^|\.)1\.f\.ix\.de$
 (^|\.)2mdn\.net$
 (^|\.)6\.googlevideo\.com$
@@ -282,9 +281,6 @@ amp-analytics
 (^|\.)shinystat\.com$
 (^|\.)histats\.com$
 (^|\.)go2affise\.com$
-
-
-# RegEx
 (^|\.)metrics?[-.]
 (^|\.)market(ing)?[-.]
 (^|\.)log(ger|ging)?(-_)?[0-9]*[-.]
@@ -327,7 +323,3 @@ amp-analytics
 ^telemetry[-.]
 ^track(ers?|ing)?[0-9]*[-.]
 ^traff(ic)?[-.]
-
-
-# For proper execution of make-blocklist.sh
-^\#
