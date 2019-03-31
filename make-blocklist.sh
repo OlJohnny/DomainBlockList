@@ -25,11 +25,12 @@ echo "<$now> Finished Getting Blocklists"
 now=$(date +"%T")
 echo "<$now> Started  Sorting and Cleaning Blocklist..."
 
-sudo sed -i 's/0.0.0.0//' ./blocklist-work
-sudo sed -i 's/127.0.0.1//' ./blocklist-work
+sudo sed -i 's/0\.0\.0\.0//g' ./blocklist-work
+sudo sed -i 's/127\.0\.0\.1//g' ./blocklist-work
 sudo sed -i 's/ //g' ./blocklist-work
 sudo sed -i 's/[[:blank:]]//g' ./blocklist-work
 sudo sed -i 's/[[:space:]]//g' ./blocklist-work
+sudo sed -i 's/#.*//g' ./blocklist-work
 #-i             --in-place              Die Textdatei wird verändert, anstatt das Ergebnis auf Standardausgabe auszugeben.
 
 sudo sort -u ./blocklist-work -o ./blocklist-work1
