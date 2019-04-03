@@ -25,7 +25,6 @@
 (^|\.)adhigh\.net$
 (^|\.)adition\.com$
 (^|\.)adjust\.com$
-
 (^|\.)h-bid\.com$
 (^|\.)amunx\.de$
 (^|\.)ioam\.de$
@@ -72,7 +71,6 @@
 (^|\.)axf8\.net$
 (^|\.)bapb\.gdn$
 (^|\.)bbelements\.com$
-(^|\.)beget\.tech$
 (^|\.)beget\.tech$
 (^|\.)beliefnet\.com$
 (^|\.)bestdeals\.at$
@@ -330,7 +328,6 @@
 (^|\.)phando\.com$
 (^|\.)phluantmobile\.net$
 (^|\.)pila\.pl$
-(^|\.)piwik\.re-in\.de$
 (^|\.)placelocal\.com$
 (^|\.)plista\.com$
 (^|\.)plugrush\.com$
@@ -575,5 +572,5 @@ amp-analytics
 (^|\.|-|_)telemetry[0-9]*[-_.]
 (^|\.|-|_)warn[li]ng-n[0o]t[il]ce[-_.]
 (^|\.|-|_)wellsfargo[-_.]?com[-_.]
-(^|\.|-|_)ad(-?legend|acts|net(work)?|boost|client[0-9]*|clear|click|cycle|count|pick|cycle|farm|files|force|hese|info|klic?k|link|log|man(ager)?[0-9]?|max|media|mob|net(work)?|safeprotected|search|scale|science|screendirect|serv(ant|ice)|sfac|skeeper|smarket|smart|software|smogo|snew|spirit|sremote|srvmedia|sweb|sys|symptotic|syndication|tags?(ger)?|tailer|tech|(in)?telligence|test|vertserve|volution)[-.]
+(^|\.|-|_)ad(-?legend|acts|net(work)?|boost|client[0-9]*|clear|clicks?|cycle|count|pick|cycle|farm|files|force|hese|info|klic?k|link|log|man(ager)?[0-9]?|max|media|mob|net(work)?|safeprotected|search|scale|science|screendirect|serv(ant|ice)|sfac|skeeper|smarket|smart|software|smogo|snew|spirit|sremote|srvmedia|sweb|sys|symptotic|syndication|tags?(ger)?|tailer|tech|(in)?telligence|test|vertserve|volution)[-.]
 (^|\.|-|_)(alerte?|alarm|code|computer|critical|disk|error|failure|hijack|issue|maxis|notice|pc-scan|risk|scanner|security(-alert)?|top|support|tech|tksecuresupportx|warning|congrats\.net|(go|hits|h)\.(co|net)|ws[0-9]?\.|de[fhjkx]|e[htv]|fb|fs[a-z]|jcb|jp|k[dhj]|co|os|pc)([0-9]|-|[a-z])*\.(stream|win|online|site)
