@@ -24,6 +24,15 @@ You may need to run ``sudo dos2unix get-regex-blacklist.sh`` and ``sudo chmod +x
 It can be pulled via (TBD)/get-regex
 
 
+### ``insert-blocklist.sh``
+This script just references ``blocklist-fin`` as a Blocklist in Pi-Hole (is view- and switchable in 'Settings -> Blocklists'), so that you can use it locally .
+
+You may need to run ``sudo dos2unix insert-blocklist.sh`` and ``sudo chmod +x insert-blocklist.sh`` for it being able to be executed.
+
+
+It can be pulled via (TBD)/get-regex
+
+
 ### ``make-blocklist.sh``
 This script pulls to-be-blocked lists of domains from ``blocklist-links`` and ``custom-links`` (You can suplly your own links to blocklists here, without them being overwritten from cloning this repo, as this file will NEVER be pushed by me).
 
@@ -31,10 +40,10 @@ It then removes any and all domains which match the RegEx statements provided in
 
 Any remaining domains get put into ``blocklist-fin`` for you to use.
 
-You may need to run ``sudo dos2unix get-regex-blacklist.sh`` and ``sudo chmod +x get-regex-blacklist.sh`` for it being able to be executed.
+You may need to run ``sudo dos2unix make-blocklist.sh`` and ``sudo chmod +x make-blocklist.sh`` for it being able to be executed.
 
 
-It can be pulled via (TBD)/get-regex
+It can be pulled via (TBD)/make-blocklist
 
 
 ### ``regex-blacklist``
