@@ -61,8 +61,12 @@ Any RegEx statements provided in this file are used by ``make-blocklist.sh`` to 
 
 ## Whitelisting
 As this list aims to block most tracking and ad services you may need to specifically whitelist the following domains:
-- (www.)facebook.com *to use Facebook*
-- (www.)instagram.com *to use Instagram*
-- www.youtube-nocookie.com *embedded Youtube Videos*
-- yt3.ggpht.com *Youtube Thumbnails*
-- asadcdn.com *to undergo the BILD.de AdBlock-Blocker*
+- ``www.facebook.com`` main Facebook page
+- ``static.xx.fbcdn.net`` CSS source for main Facebook page
+- ``www.pinterest.com`` main Pinterest page
+- ``www.pinterest.de`` main Pinterest page
+- ``www.instagram.com`` main Instagram page
+- ``www.youtube-nocookie.com`` embedded Youtube Videos
+- ``yt3.ggpht.com`` (some) Youtube Thumbnails
+- ``asadcdn.com`` BILD.de AdBlock-Blocker*
+- ``external-preview.redd.it`` externally embedded pictures/videos on reddit (e.g. imgur). As mostly ads use this, it is blocked by default.
