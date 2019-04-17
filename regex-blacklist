@@ -18,8 +18,10 @@
 (^|\.)9xiazaiqi\.com$
 (^|\.)aa-cdn\.net$
 (^|\.)aaxads\.com$
+(^|\.)abmr\.net$
 (^|\.)actnx\.com$
 (^|\.)actonsoftware\.com$
+(^|\.)addroplet\.com$
 (^|\.)adtm\.chip\.de$
 (^|\.)airfind\.com$
 (^|\.)akamaihd\.net$
@@ -34,6 +36,7 @@
 (^|\.)ampxchange\.com$
 (^|\.)amunx\.de$
 (^|\.)andbeyond\.media$
+(^|\.)aniview\.com$
 (^|\.)apester\.com$
 (^|\.)appads\.com$
 (^|\.)appier\.net$
@@ -58,6 +61,7 @@
 (^|\.)bitsontherun\.com$
 (^|\.)bitterstrawberry\.com$
 (^|\.)boltdns\.net$
+(^|\.)branch\.io$
 (^|\.)brandreachsys\.com$
 (^|\.)bravenet\.com$
 (^|\.)brightcove\.net$
@@ -87,9 +91,11 @@
 (^|\.)commsvc\.stern\.de$
 (^|\.)company-target\.de$
 (^|\.)conative\.de$
+(^|\.)connatix\.com$
 (^|\.)consensu\.org$
 (^|\.)content-recommendation\.net$
 (^|\.)contextweb\.com$
+(^|\.)cookieconsent\.insites\.com$
 (^|\.)cookielaw\.org$
 (^|\.)cooleremail\.com$
 (^|\.)count\.ly$
@@ -131,9 +137,9 @@
 (^|\.)epoq\.de$
 (^|\.)evidon\.com$
 (^|\.)exoclick\.com$
-(^|\.)external-preview\.redd\.it$
 (^|\.)extreme-dm\.com$
 (^|\.)extremereach\.com$
+(^|\.)ezoic\.net$
 (^|\.)fastclick\.net$
 (^|\.)fbcdn\.net$
 (^|\.)fera\.ai$
@@ -170,6 +176,7 @@
 (^|\.)h-bid\.com$
 (^|\.)hammondalatasimages\.com$
 (^|\.)hangoutathome\.com$
+(^|\.)helpshift\.com$
 (^|\.)hemnes\.win$
 (^|\.)heyzap\.com$
 (^|\.)histats\.com$
@@ -177,7 +184,9 @@
 (^|\.)hittail\.com$
 (^|\.)hlserve\.com$
 (^|\.)hnliyin\.com$
+(^|\.)hollerwp\.com$
 (^|\.)home\.ne\.jp$
+(^|\.)hoodline\.com$
 (^|\.)hotjar\.com$
 (^|\.)hotlog\.ru$
 (^|\.)hpg\.com\.br$
@@ -188,8 +197,10 @@
 (^|\.)imangisupport\.com$
 (^|\.)imrworldwide\.com$
 (^|\.)inclk\.com$
+(^|\.)infonline\.de$
 (^|\.)inmobi\.com$
 (^|\.)insightexpressai\.com$
+(^|\.)insites\.com$
 (^|\.)insnw\.net$
 (^|\.)instagram\.com$
 (^|\.)intellitxt\.com$
@@ -198,6 +209,7 @@
 (^|\.)iqcontentplatform\.de$
 (^|\.)iqm\.de$
 (^|\.)iteratehq\.com$
+(^|\.)ivwbox\.de$
 (^|\.)iwanttodeliver\.com$
 (^|\.)izooto\.com$
 (^|\.)jmp9\.com$
@@ -212,6 +224,7 @@
 (^|\.)kctag\.net$
 (^|\.)keywordblocks\.com$
 (^|\.)kissmetrics\.com$
+(^|\.)krxd\.net$
 (^|\.)kzpcmad\.tk$
 (^|\.)la\.welt\.de$
 (^|\.)leadlander\.com$
@@ -222,9 +235,11 @@
 (^|\.)liveadreamlifestyle\.com$
 (^|\.)liveadvert\.com$
 (^|\.)livetex\.ru$
+(^|\.)llnwd\.net$
 (^|\.)madpendesign\.com\.au$
 (^|\.)mailchimp\.com$
 (^|\.)mailmunch\.co$
+(^|\.)marfeel\.com$
 (^|\.)marketo\.com$
 (^|\.)marsello\.com$
 (^|\.)mathtag\.com$
@@ -365,8 +380,11 @@
 (^|\.)smi2\.net$
 (^|\.)solarleadfactory\.com$
 (^|\.)soup\.io$
+(^|\.)sourcepoint\.vice\.com$
 (^|\.)speedcurve\.com$
 (^|\.)spot\.im$
+(^|\.)spot\.im$
+(^|\.)spotim\.market$
 (^|\.)spotx\.tv$
 (^|\.)spotxchange\.com$
 (^|\.)spylog\.com$
@@ -386,6 +404,7 @@
 (^|\.)swrve\.com$
 (^|\.)syndicate\.purch\.com$
 (^|\.)syndication\.twitter\.com$
+(^|\.)t4ft\.de$
 (^|\.)targetnet\.com$
 (^|\.)teads\.tv$
 (^|\.)tealiumiq\.com$
@@ -425,6 +444,7 @@
 (^|\.)user(like|cash)\.com$
 (^|\.)vectranet\.pl$
 (^|\.)vertamedia\.com$
+(^|\.)vi-serve\.com$
 (^|\.)video-ak\.cdn\.spotify\.com$
 (^|\.)videoplaza\.tv$
 (^|\.)vindicosuite\.com$
@@ -448,6 +468,7 @@
 (^|\.)xpanama\.net$
 (^|\.)xplosion\.de$
 (^|\.)yamanoha\.com$
+(^|\.)yastatic\.net$
 (^|\.)yesadvertising\.com$
 (^|\.)yieldlab\.net$
 (^|\.)yieldlove\.com$
