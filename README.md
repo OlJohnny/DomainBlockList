@@ -3,6 +3,21 @@
 This ``Blocklist`` is intended to be used with PiHole or any other Domain Blocker, which is capable of using RegEx statements.
 
 
+## Whitelisting
+As this list aims to block most tracking and ad services you may need to specifically whitelist the following domains:
+- ``www.facebook.com`` main Facebook page
+- ``static.xx.fbcdn.net`` CSS source for main Facebook page
+- ``www.pinterest.com`` main Pinterest page
+- ``www.pinterest.de`` main Pinterest page
+- ``www.instagram.com`` main Instagram page
+- ``www.youtube-nocookie.com`` embedded Youtube Videos
+- ``yt3.ggpht.com`` (some) Youtube Thumbnails
+- ``cdn.syndication.twimg.com`` Embedded Twitter Posts
+- ``platform.twitter.com`` Embedded Twitter Posts
+- ``www.googleadservices.com`` Google Sponsored Search Results, Google Shopping
+- ``asadcdn.com`` BILD.de AdBlock-Blocker*
+
+
 ## Explaining the files
 ### ``blocklist-fin``
 This file contains every domain, which gets pulled from sources out of ``regex-blacklist`` and filtered with ``regex-blacklist`` & ``regex-whitelist``. It gets outputted by ``make-blocklist.sh``.
@@ -57,16 +72,3 @@ It can be pulled via (TBD)/regex-blacklist
 
 ### ``regex-blacklist``
 Any RegEx statements provided in this file are used by ``make-blocklist.sh`` to minimize and remove 'duplicates' from ``blocklist-fin`` without being blocked by pi-hole's built-in RegEx Domain Blocker.
-
-
-## Whitelisting
-As this list aims to block most tracking and ad services you may need to specifically whitelist the following domains:
-- ``www.facebook.com`` main Facebook page
-- ``static.xx.fbcdn.net`` CSS source for main Facebook page
-- ``www.pinterest.com`` main Pinterest page
-- ``www.pinterest.de`` main Pinterest page
-- ``www.instagram.com`` main Instagram page
-- ``www.youtube-nocookie.com`` embedded Youtube Videos
-- ``yt3.ggpht.com`` (some) Youtube Thumbnails
-- ``asadcdn.com`` BILD.de AdBlock-Blocker*
-- ``external-preview.redd.it`` externally embedded pictures/videos on reddit (e.g. imgur). As mostly ads use this, it is blocked by default.
