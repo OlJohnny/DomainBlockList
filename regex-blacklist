@@ -76,6 +76,7 @@
 (^|\.)casalemedia\.com$
 (^|\.)cdn2\.spiegel\.de$
 (^|\.)cdn\.zomap\.de$
+(^|\.)cdntrf\.com$
 (^|\.)cedexis-radar\.net$
 (^|\.)centade\.com$
 (^|\.)centde\.com$
@@ -362,6 +363,7 @@
 (^|\.)s-onetag\.com$
 (^|\.)scorecardresearch\.com$
 (^|\.)selfcampaign\.com$
+(^|\.)sendpulse\.com$
 (^|\.)serulom\.tk$
 (^|\.)servedbyopenx\.com$
 (^|\.)serving-sys\.com$
@@ -395,6 +397,7 @@
 (^|\.)starwave\.com$
 (^|\.)steadyhq\.com$
 (^|\.)stickyadstv\.com$
+(^|\.)sueddeutsche-de\.sueddeutsche\.de$
 (^|\.)summerhamster\.com$
 (^|\.)supersonicads\.com$
 (^|\.)surf-town\.net$
@@ -447,6 +450,7 @@
 (^|\.)vi-serve\.com$
 (^|\.)video-ak\.cdn\.spotify\.com$
 (^|\.)videoplaza\.tv$
+(^|\.)videoreach\.de$
 (^|\.)vindicosuite\.com$
 (^|\.)voicefive\.com$
 (^|\.)voluumtrk\.com$
