@@ -1,4 +1,5 @@
 (^|\.)bit\.ly
+(^|\.)googlevideo\.com$
 ^alluremedia\.com\.au
 ^android\.clients\.google\.com
 ^api\.ipify\.org
