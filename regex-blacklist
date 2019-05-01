@@ -23,6 +23,7 @@
 (^|\.)actonsoftware\.com$
 (^|\.)addroplet\.com$
 (^|\.)adtm\.chip\.de$
+(^|\.)adup-tech\.com$
 (^|\.)airfind\.com$
 (^|\.)akstat\.io$
 (^|\.)alb\.reddit\.com$
@@ -277,6 +278,7 @@
 (^|\.)mybcapps\.com$
 (^|\.)nativendo\.com$
 (^|\.)nativendo\.de$
+(^|\.)neads\.delivery$
 (^|\.)negty\.net$
 (^|\.)neliver\.com$
 (^|\.)net-filter\.com$
@@ -584,4 +586,4 @@ amp-analytics
 (^|\.|-|_)warn[li]ng-n[0o]t[il]ce[-_.]
 (^|\.|-|_)wellsfargo[-_.]?com[-_.]
 (^|\.|-|_)ad(-?legend|alliance|acts|net(work)?|boost|client[0-9]*|clear|clicks?|clickmedia|colony|cycle|count|pick|cycle|farm|files|force|form|high|hese|info|ition|just|klic?k|k2x?|link|log|looxtracking|man(ager)?[0-9]?|marketplace|max|media|mob|net(work)?|omik|otmob|nxs|protect|river|roll|safeprotected|search|scale|science|screendirect|serv(ant|ice)|sfac|skeeper|smarket|smart|software|smogo|snew|spirit|sremote|srvmedia|sweb|sys|symptotic|syndication|tags?(ger)?|tailer|tech|(in)?telligence|test|vertserve|volution)[-.]
-(^|\.|-|_)(alerte?|alarm|code|computer|critical|disk|error|failure|hijack|issue|maxis|notice|pc-scan|risk|scanner|security(-alert)?|top|support|tech|tksecuresupportx|warning|congrats\.net|(go|hits|h)\.(co|net)|ws[0-9]?\.|de[fhjkx]|e[htv]|fb|fs[a-z]|jcb|jp|k[dhj]|co|os|pc)([0-9]|-|[a-z])*\.(stream|win|online|site)
+(^|\.|-|_)(alerte?|alarm|code|computer|critical|disk|error|failure|hijack|issue|maxis|notice|pc-scan|risk|scanner|security(-alert)?|top|support|tech|tksecuresupportx|warning|congrats\.net|(go|hits|h)\.(co|net)|ws[0-9]?\.|de[fhjkx]|e[htv]|fb|fs[a-z]|jcb|jp|k[dhj]|co|os|pc)([0-9]|-|[a-z]){0,6}\.(stream|win|online|site)$

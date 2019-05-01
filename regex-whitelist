@@ -1,7 +1,17 @@
-(^|\.)bit\.ly
 (^|\.)googlevideo\.com$
+()LinkShortener()
+(^|\.)bit\.ly$
+(^|\.)mbed\.ly$
+(^|\.)tinyurl\.com$
+(^|\.)goo\.gl$
+(^|\.)ow\.ly$
+()AkamaiCDN()
 (^|\.)akamaihd\.net$
 (^|\.)akamaized\.net$
+(^|\.)akadns\.net$
+(^|\.)edgekey\.net$
+()FacebookCDN()
+(^|\.)fbcdn\.net$
 ^alluremedia\.com\.au
 ^android\.clients\.google\.com
 ^api\.ipify\.org
@@ -29,11 +39,9 @@
 ^ec-ns\.sascdn\.com
 ^edge\.api\.brightcove\.com
 ^eds\.xboxlive\.com
-^embed\.ly
 ^g\.live\.com
 ^geo-prod\.do\.dsp\.mp\.microsoft\.com
 ^gfwsl\.geforce\.com
-^goo\.gl
 ^googleapis\.l\.google\.com
 ^gravatar\.com
 ^gsp1\.apple\.com
@@ -53,7 +61,6 @@
 ^ocsp\.apple\.com
 ^officeclient\.microsoft\.com
 ^outlook\.office365\.com
-^ow\.ly
 ^pricelist\.skype\.com
 ^prod\.telemetry\.ros\.rockstargames\.com
 ^products\.office\.com
@@ -66,7 +73,6 @@
 ^settings-win\.data\.microsoft\.com
 ^spclient\.wg\.spotify\.com
 ^stats\.t-online\.de
-^tinyurl\.com
 ^title\.auth\.xboxlive\.com
 ^title\.mgt\.xboxlive\.com
 ^tomshardware\.com
