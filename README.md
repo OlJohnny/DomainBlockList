@@ -5,17 +5,37 @@ This ``Blocklist`` is intended to be used with PiHole or any other Domain Blocke
 
 ## Whitelisting
 As this list aims to block most tracking and ad services you may need to specifically whitelist the following domains:
-- ``www.facebook.com`` main Facebook page
-- ``static.xx.fbcdn.net`` CSS source for main Facebook page
-- ``www.pinterest.com`` main Pinterest page
-- ``www.pinterest.de`` main Pinterest page
-- ``www.instagram.com`` main Instagram page
-- ``www.youtube-nocookie.com`` embedded Youtube Videos
-- ``yt3.ggpht.com`` (some) Youtube Thumbnails
-- ``cdn.syndication.twimg.com`` Embedded Twitter Posts
-- ``platform.twitter.com`` Embedded Twitter Posts
-- ``www.googleadservices.com`` Google Sponsored Search Results, Google Shopping
-- ``asadcdn.com`` BILD.de AdBlock-Blocker*
+Akamai CDN (used by Origin, Adobe etc.) [whitelisted by default]:
+- ``akamaihd.net``
+- ``akamaized.net``
+- ``akadns.net``
+- ``edgekey.net``
+
+Instagram [blacklisted by default]:
+- ``instagram.com``
+- ``www.instagram.com``
+
+Facebook [blacklisted by default]:
+- ``facebook.com``
+- ``www.facebook.com``
+- ``edge-mqtt.facebook.com``
+- ``portal.fb.com``
+- ``static.xx.fbcdn.net``
+
+Twitter [blacklisted by default]:
+- ``platform.twitter.com``
+- ``cdn.syndication.twimg.com``
+
+YouTube [blacklisted by default]: 
+- ``www.youtube-nocookie.com``
+- ``yt3.ggpht.com``
+
+Dominos Checkout [blacklisted by default]:
+- ``live.adyen.com``
+
+Other sites:
+- ``www.googleadservices.com`` [blacklisted by default] Google Sponsored Search Results, Google Shopping
+- ``asadcdn.com`` [blacklisted by default] BILD.de AdBlock-Blocker*
 
 
 ## Explaining the files
