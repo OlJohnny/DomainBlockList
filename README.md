@@ -33,6 +33,11 @@ YouTube [blacklisted by default]:
 Dominos Checkout [blacklisted by default]:
 - ``live.adyen.com``
 
+Sourceforge Download [blacklisted by default]:
+- ``quantcast.mgr.consensu.org``
+- ``static.quantcast.mgr.consensu.org``
+- ``vendorlist.consensu.org``
+
 Other sites:
 - ``www.googleadservices.com`` [blacklisted by default] Google Sponsored Search Results, Google Shopping
 - ``asadcdn.com`` [blacklisted by default] BILD.de AdBlock-Blocker*
