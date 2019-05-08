@@ -8,12 +8,43 @@ set -o nounset
 
 
 
+##### FUNCTIONS #####
+### install dos2unix function ###
+_var1func(){
+read --prompt $'\e[96mDo you want to install dos2unix? (Errors can occur, when files are in the wrong format) (y|n): \e[0m' var1
+if [[ "${var1}" -eq "y" ]]
+then
+	echo -e "\e[92mInstalling dos2unix...\e[0m"
+	apt-get --yes install dos2unix
+elif [[ "${var1}" -eq "n" ]]
+then
+	echo -e "\e[91mPackage is needed to complete the run of this script.\e[0m"
+	echo "Exiting..."
+	exit
+else
+	_var1func
+fi
+}
+
+
+
 ##### PREPARATION #####
 ### check for root privilges ###
 if [[ "${EUID}" -ne 0 ]]
 then
   echo -e "\e[91mPlease run as root.\e[39m Root privileges are needed to move and delete files"
   exit
+fi
+
+
+### install dos2unix ###
+echo "Checking if dos2unix is installed..."
+
+if [[ $(dpkg-query --show --showformat='${Status}' dos2unix 2>/dev/null | grep --count "ok installed") -eq 0 ]];
+then
+	_var1func
+else
+	echo -e "\e[92mPackage dos2unix is already installed\e[0m"
 fi
 
 
@@ -28,6 +59,11 @@ touch ./blocklist-fin
 
 chmod -f 775 ./.blocklist-work*
 chmod -f 775 ./blocklist-fin
+
+dos2unix /blocklist-links
+dos2unix /custom-links
+dos2unix /regex-blacklist
+dos2unix /regex-whitelist
 
 
 
