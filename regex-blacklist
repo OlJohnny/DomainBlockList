@@ -16,6 +16,7 @@
 (^|\.)71i\.de$
 (^|\.)7wkw\.com$
 (^|\.)9xiazaiqi\.com$
+(^|\.)a\.ria\.ru$$
 (^|\.)aa-cdn\.net$
 (^|\.)aaxads\.com$
 (^|\.)abmr\.net$
@@ -23,6 +24,7 @@
 (^|\.)actonsoftware\.com$
 (^|\.)addroplet\.com$
 (^|\.)adtm\.chip\.de$
+(^|\.)adup-tech\.com$
 (^|\.)adup-tech\.com$
 (^|\.)airfind\.com$
 (^|\.)akstat\.io$
@@ -51,6 +53,8 @@
 (^|\.)authedmine\.com$
 (^|\.)axf8\.net$
 (^|\.)bapb\.gdn$
+(^|\.)bat\.bing\.com$
+(^|\.)batbing\.com$
 (^|\.)bbelements\.com$
 (^|\.)beeketing\.com$
 (^|\.)beget\.tech$
@@ -142,7 +146,6 @@
 (^|\.)extremereach\.com$
 (^|\.)ezoic\.net$
 (^|\.)fastclick\.net$
-(^|\.)fbcdn\.net$
 (^|\.)fera\.ai$
 (^|\.)finative\.com$
 (^|\.)flagcounter\.com$
@@ -219,7 +222,6 @@
 (^|\.)justclick\.ru$
 (^|\.)justns\.ru$
 (^|\.)justuno\.com$
-(^|\.)jwpcdn\.com$
 (^|\.)kairion\.de$
 (^|\.)kampyle\.com$
 (^|\.)kctag\.net$
@@ -278,6 +280,7 @@
 (^|\.)mybcapps\.com$
 (^|\.)nativendo\.com$
 (^|\.)nativendo\.de$
+(^|\.)neads\.delivery$
 (^|\.)neads\.delivery$
 (^|\.)negty\.net$
 (^|\.)neliver\.com$
@@ -515,7 +518,6 @@ amp-analytics
 (^|\.)ero-?advertising[-.]
 (^|\.)facebook[-_.]
 (^|\.)fail-([0-9]|[a-z]){5,6}\.stream$
-(^|\.)fastly(lb)?\.net$
 (^|\.)ffoqr3ug7m726zou[-_.]
 (^|\.)free-?counters?[-.]
 (^|\.)freempr[0-9]{0,4}[-_.]
@@ -543,7 +545,6 @@ amp-analytics
 (^|\.)ns[0-9]*[-.]
 (^|\.)p27dokhpz2n7nvgr[-_.]
 (^|\.)pinterest\.(com|de)
-(^|\.)piwik\.
 (^|\.)pixels?[-.]
 (^|\.)pmenboeqhyrpvomq[-_.]
 (^|\.)safety\.apple\.com\.

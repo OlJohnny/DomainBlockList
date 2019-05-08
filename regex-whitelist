@@ -12,6 +12,8 @@
 (^|\.)edgekey\.net$
 ()FacebookCDN()
 (^|\.)fbcdn\.net$
+()FASTLYCDN()
+^fastly\.(net|com)
 ^alluremedia\.com\.au
 ^android\.clients\.google\.com
 ^api\.ipify\.org
