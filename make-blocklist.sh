@@ -1,75 +1,62 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# github.com/OlJohnny | 2019
+
+set -o errexit
+set -o pipefail
+set -o nounset
+# set -o xtrace		# uncomment the previous statement for debugging
 
 
+
+##### PREPARATION #####
 ### check for root privilges ###
-if [ "$EUID" -ne 0 ]
+if [[ "${EUID}" -ne 0 ]]
 then
-  echo -e "\e[91mPlease run as root.\e[39m Root privileges are needed to move and edit files in /etc/pihole"
+  echo -e "\e[91mPlease run as root.\e[39m Root privileges are needed to move and delete files"
   exit
 fi
 
 
 ### reset files ###
-sudo rm -rf ./.blocklist-work*
-sudo rm -rf ./blocklist-fin
+rm -rf ./.blocklist-work*
+rm -rf ./blocklist-fin
 
-sudo touch ./.blocklist-work0
-sudo touch ./.blocklist-work1
-sudo touch ./.blocklist-work2
-sudo touch ./blocklist-fin
+touch ./.blocklist-work0
+touch ./.blocklist-work1
+touch ./.blocklist-work2
+touch ./blocklist-fin
 
-sudo chmod -f 775 ./.blocklist-work0
-sudo chmod -f 775 ./.blocklist-work1
-sudo chmod -f 775 ./.blocklist-work2
-sudo chmod -f 775 ./blocklist-fin
+chmod -f 775 ./.blocklist-work*
+chmod -f 775 ./blocklist-fin
 
 
+
+##### DO STUFF #####
 ### get blocklists from 'blocklist-links' and 'custom-links' ###
-now=$(date +"%T")
-echo "<$now> Started  Getting Blocklists..."
+echo "<$(date +"%T")> Getting Source Blocklists..."
+wget --quiet --output-document=- --input-file=./blocklist-links > ./.blocklist-work0
+wget --quiet --output-document=- --input-file=./custom-links >> ./.blocklist-work0
 
-sudo wget -q -i ./blocklist-links -O - > ./.blocklist-work0
-#-q             --quiet                 Verhindert dass wget Informationen auf der Konsole ausgibt.
-# -i DATEI      --input-file=DATEI      Liest URLs aus einer Text- oder HTML-Datei aus.
-# -O DATEI      --output-document=DATEI Schreibe in DATEI. Kann nicht mit -N verwendet werden. Mit "-O -" schreibt wget den Inhalt der heruntergeladenen Datei in die StdOut.
-sudo wget -q -i ./custom-links -O - >> ./.blocklist-work0
-
-now=$(date +"%T")
-echo "<$now> Finished Getting Blocklists"
 
 ### remove comments, null ips and blank space. sort the list ###
 now=$(date +"%T")
-echo "<$now> Started  Sorting and Cleaning Blocklist..."
-
-sudo sed -i 's/0\.0\.0\.0//g' ./.blocklist-work0
-sudo sed -i 's/127\.0\.0\.1//g' ./.blocklist-work0
-sudo sed -i 's/ //g' ./.blocklist-work0
-sudo sed -i 's/[[:blank:]]//g' ./.blocklist-work0
-sudo sed -i 's/[[:space:]]//g' ./.blocklist-work0
-sudo sed -i 's/#.*//g' ./.blocklist-work0
-#-i             --in-place              Die Textdatei wird verändert, anstatt das Ergebnis auf Standardausgabe auszugeben.
-
-sudo sort -u ./.blocklist-work0 -o ./.blocklist-work1
-#-u             --unique                Sortierung ohne doppelte Zeilen
-
-now=$(date +"%T")
-echo "<$now> Finished Sorting Blocklist"
+echo -e "\n<$now> Sorting and Cleaning Blocklist..."
+sed --in-place 's/0\.0\.0\.0//g' ./.blocklist-work0
+sed --in-place 's/127\.0\.0\.1//g' ./.blocklist-work0
+sed --in-place 's/ //g' ./.blocklist-work0
+sed --in-place 's/[[:blank:]]//g' ./.blocklist-work0
+sed --in-place 's/[[:space:]]//g' ./.blocklist-work0
+sed --in-place 's/#.*//g' ./.blocklist-work0
+sort --unique ./.blocklist-work0 --output=./.blocklist-work1
 
 
 ### apply 'regex-blocklist' and 'regex-whitelist' ###
-now=$(date +"%T")
-echo "<$now> Started  Applying RegEx Blacklist..."
-
-sudo grep -E -v -f ./regex-blacklist ./.blocklist-work1 > ./.blocklist-work2
-# -v            --invert-match          Invertiert die Suche und liefert alle Zeilen die nicht auf das gesuchte Muster passen.
-# -f Datei      --file=Datei            beziehe die Muster aus Datei, eines je Zeile. Eine leere Datei enthält keine Muster und passt somit auf keinen String.
-
-sudo grep -E -v -f ./regex-whitelist ./.blocklist-work2 > ./blocklist-fin
+echo -e "\n<$(date +"%T")> Applying RegEx Blacklist..."
+grep --extended-regexp --invert-match --file=./regex-blacklist ./.blocklist-work1 > ./.blocklist-work2
+grep --extended-regexp --invert-match --file=./regex-whitelist ./.blocklist-work2 > ./blocklist-fin
 
 
-now=$(date +"%T")
-echo "<$now> Finished Applying RegEx Blacklist"
 
-
+##### FINISHING #####
 ### reset files ###
-sudo rm -rf ./.blocklist-work*
+rm -rf ./.blocklist-work*
