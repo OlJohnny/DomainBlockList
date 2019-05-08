@@ -48,6 +48,17 @@ else
 fi
 
 
+### data warning ###
+echo "Please note that this script will overwrite '/etc/pihole/regex.list', which means that any existing RegEx rules will be deleted."
+echo -n "Continuing in 5 seconds"
+for i in 1 1 1 1 1
+do
+	echo -n "."
+	sleep 1s
+done
+echo ""
+
+
 ### reset files ###
 rm -rf ./.blocklist-work*
 rm -rf ./blocklist-fin
