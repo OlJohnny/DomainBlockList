@@ -37,17 +37,6 @@ then
 fi
 
 
-### install dos2unix ###
-echo "Checking if dos2unix is installed..."
-
-if [[ $(dpkg-query --show --showformat='${Status}' dos2unix 2>/dev/null | grep --count "ok installed") -eq 0 ]];
-then
-	_var1func
-else
-	echo -e "\e[92mPackage dos2unix is already installed\e[0m"
-fi
-
-
 ### data warning ###
 echo "Please note that this script will overwrite '/etc/pihole/regex.list', which means that any existing RegEx rules will be deleted."
 echo -n "Continuing in 5 seconds"
@@ -57,6 +46,17 @@ do
 	sleep 1s
 done
 echo ""
+
+
+### install dos2unix ###
+echo "Checking if dos2unix is installed..."
+
+if [[ $(dpkg-query --show --showformat='${Status}' dos2unix 2>/dev/null | grep --count "ok installed") -eq 0 ]];
+then
+	_var1func
+else
+	echo -e "\e[92mPackage dos2unix is already installed\e[0m"
+fi
 
 
 ### reset files ###
@@ -71,23 +71,21 @@ touch ./blocklist-fin
 chmod -f 775 ./.blocklist-work*
 chmod -f 775 ./blocklist-fin
 
-dos2unix /blocklist-links
-dos2unix /custom-links
-dos2unix /regex-blacklist
-dos2unix /regex-whitelist
+dos2unix --quiet ./blocklist-links
+dos2unix --quiet ./regex-blacklist
+dos2unix --quiet ./regex-whitelist
 
 
 
 ##### DO STUFF #####
 ### get blocklists from 'blocklist-links' and 'custom-links' ###
-echo "<$(date +"%T")> Getting Source Blocklists..."
-wget --quiet --output-document=- --input-file=./blocklist-links > ./.blocklist-work0
-wget --quiet --output-document=- --input-file=./custom-links >> ./.blocklist-work0
+echo -e "\n<$(date +"%T")> Downloading Source Blocklists...\e[90m"
+wget --quiet --show-progress --output-document=- --input-file=./blocklist-links > ./.blocklist-work0
+wget --quiet --show-progress --output-document=- --input-file=./custom-links >> ./.blocklist-work0
 
 
 ### remove comments, null ips and blank space. sort the list ###
-now=$(date +"%T")
-echo -e "\n<$now> Sorting and Cleaning Blocklist..."
+echo -e "\e[0m\n<$(date +"%T")> Sorting and Cleaning Blocklist..."
 sed --in-place 's/0\.0\.0\.0//g' ./.blocklist-work0
 sed --in-place 's/127\.0\.0\.1//g' ./.blocklist-work0
 sed --in-place 's/ //g' ./.blocklist-work0
@@ -98,7 +96,7 @@ sort --unique ./.blocklist-work0 --output=./.blocklist-work1
 
 
 ### apply 'regex-blocklist' and 'regex-whitelist' ###
-echo -e "\n<$(date +"%T")> Applying RegEx Blacklist..."
+echo -e "\n<$(date +"%T")> Applying RegEx Black- and Whitelist..."
 grep --extended-regexp --invert-match --file=./regex-blacklist ./.blocklist-work1 > ./.blocklist-work2
 grep --extended-regexp --invert-match --file=./regex-whitelist ./.blocklist-work2 > ./blocklist-fin
 
@@ -107,3 +105,4 @@ grep --extended-regexp --invert-match --file=./regex-whitelist ./.blocklist-work
 ##### FINISHING #####
 ### reset files ###
 rm -rf ./.blocklist-work*
+echo -e "\n<$(date +"%T")> Finished\nExiting..."
