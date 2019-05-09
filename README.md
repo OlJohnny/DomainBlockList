@@ -11,11 +11,11 @@ Akamai CDN (used by Origin, Adobe etc.) [whitelisted by default]:
 - ``akadns.net``
 - ``edgekey.net``
 
-Instagram [blacklisted by default]:
+Instagram [whitelisted by default]:
 - ``instagram.com``
 - ``www.instagram.com``
 
-Facebook [blacklisted by default]:
+Facebook [whitelisted by default]:
 - ``facebook.com``
 - ``www.facebook.com``
 - ``edge-mqtt.facebook.com``
@@ -25,8 +25,9 @@ Facebook [blacklisted by default]:
 Twitter [blacklisted by default]:
 - ``platform.twitter.com``
 - ``cdn.syndication.twimg.com``
+- ``tweetdeck.twitter.com``
 
-YouTube [blacklisted by default]: 
+YouTube [whitelisted by default]: 
 - ``www.youtube-nocookie.com``
 - ``yt3.ggpht.com``
 
@@ -40,7 +41,7 @@ Sourceforge Download [blacklisted by default]:
 
 Other sites:
 - ``www.googleadservices.com`` [blacklisted by default] Google Sponsored Search Results, Google Shopping
-- ``asadcdn.com`` [blacklisted by default] BILD.de AdBlock-Blocker*
+- ``asadcdn.com`` [whitelisted by default] BILD.de AdBlock-Blocker*
 
 
 ## Explaining the files
