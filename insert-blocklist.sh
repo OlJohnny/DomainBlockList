@@ -1,19 +1,34 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# github.com/OlJohnny | 2019
 
-# check for root privilges
-if [ "$EUID" -ne 0 ]
+set -o errexit
+set -o pipefail
+set -o nounset
+# set -o xtrace		# uncomment the previous statement for debugging
+
+
+
+##### PREPARATION #####
+### check for root privilges ###
+if [[ "${EUID}" -ne 0 ]]
 then
-  echo -e "\e[91mPlease run as root.\e[39m Root privileges are needed to move and edit files in /etc/pihole"
+  echo -e "\e[91mPlease run as root.\e[39m Root privileges are needed to move and delete files"
   exit
 fi
 
-# get location of script/blocklist-fin
+##### DO STUFF #####
+### get location of script/blocklist-fin ###
 location=$( cd "$(dirname "$0")" ; pwd -P )"/blocklist-fin"
 
-# add file location of 'blocklist-fin' into pi-hole
-echo "file://$location" >> /etc/pihole/adlists.list
-# if this list was previously added, just keep one
-sudo uniq /etc/pihole/adlists.list > /etc/pihole/.adlist
-sudo mv /etc/pihole/.adlist /etc/pihole/adlists.list
 
-echo -e "Added reference to '\e[90m$location\e[39m' into the Domain Blocklist in Pi-Hole"
+### add file location of 'blocklist-fin' into pi-hole ###
+echo "<$(date +"%T")> Inserting local blocklist into PiHole..."
+echo "file://$location" >> /etc/pihole/adlists.list
+uniq /etc/pihole/adlists.list > /etc/pihole/.adlist
+mv /etc/pihole/.adlist /etc/pihole/adlists.list
+echo -e "\n<$(date +"%T")>Added reference to '\e[90m$location\e[39m' into the Domain Blocklist in Pi-Hole"
+
+
+
+##### FINISHING #####
+echo -e "\n<$(date +"%T")> Finished\nExiting..."
