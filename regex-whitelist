@@ -21,6 +21,7 @@
 ^(www\.)?instagram\.com$
 ^(www\.)?pinterest\.(com|de)$
 ^((www|platform)\.)?twitter\.com$
+^cdn\.syndication\.twimg\.com$
 ()FASTLYCDN()
 ^fastly\.(net|com)
 ()REGULAR()

@@ -261,6 +261,7 @@
 (^|\.)magnetic\.com$
 (^|\.)mailchimp\.com$
 (^|\.)mailmunch\.co$
+(^|\.)mainroll\.com$
 (^|\.)marfeel\.com$
 (^|\.)marketgid\.com$
 (^|\.)marketo\.com$
@@ -331,6 +332,7 @@
 (^|\.)opentracker\.com$
 (^|\.)openx\.net$
 (^|\.)opinary\.com$
+(^|\.)opmnstr\.com$
 (^|\.)optimizely\.com$
 (^|\.)optimonk\.com$
 (^|\.)ourtoolbar\.com$
@@ -621,7 +623,7 @@ amp-analytics
 (^|\.|-|_)wellsfargo[-_.]?com[-_.]
 (^|\.|-|_)pav?ypal[-_.]?(com|de|service|co\.uk|fr)[-_.]
 ()SocialMediaTracker()
-\.facebook\.com$
+\.facebook\.(com|net)$
 \.instagram\.com$
 \.pinterest\.(com|de)$
 ^syndication\.twitter\.com$
