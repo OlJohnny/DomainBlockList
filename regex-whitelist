@@ -10,6 +10,7 @@
 (^|\.)tinyurl\.com$
 (^|\.)goo\.gl$
 (^|\.)ow\.ly$
+(^|\.)geni\.us$
 ()AkamaiCDN()
 (^|\.)akamaihd\.net$
 (^|\.)akamaized\.net$

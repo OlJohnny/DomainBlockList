@@ -26,6 +26,8 @@
 (^|\.)addroplet\.com$
 (^|\.)addthis\.com$
 (^|\.)adnxs\.com$
+(^|\.)adocean\.pl$
+(^|\.)adsnative\.com$
 (^|\.)adtm\.chip\.de$
 (^|\.)adup-tech\.com$
 (^|\.)airfind\.com$
@@ -92,6 +94,7 @@
 (^|\.)cedexis-radar\.net$
 (^|\.)centade\.com$
 (^|\.)centde\.com$
+(^|\.)chartboost\.com$
 (^|\.)checkm8\.com$
 (^|\.)chimpstatic\.com$
 (^|\.)civpro\.co\.za$
@@ -215,6 +218,7 @@
 (^|\.)hoodline\.com$
 (^|\.)hotjar\.com$
 (^|\.)hotlog\.ru$
+(^|\.)hoverr\.media$
 (^|\.)hpg\.com\.br$
 (^|\.)hrahdmon\.com$
 (^|\.)hsbc\.com\.hk$
@@ -233,6 +237,7 @@
 (^|\.)insightexpressai\.com$
 (^|\.)insites\.com$
 (^|\.)insnw\.net$
+(^|\.)inspectlet\.com$
 (^|\.)instartlogic\.com$
 (^|\.)intellitxt\.com$
 (^|\.)intercom\.io$
@@ -307,6 +312,7 @@
 (^|\.)mookie1\.com$
 (^|\.)mopub\.com$
 (^|\.)moresophy\.net$
+(^|\.)mouseflow\.com$
 (^|\.)movad\.net$
 (^|\.)mparticle\.com$
 (^|\.)mpnrs\.com$
@@ -387,6 +393,7 @@
 (^|\.)putags\.com$
 (^|\.)pxj-0\.tlnk\.io$
 (^|\.)qualtrics\.com$
+(^|\.)quantserve\.com$
 (^|\.)quora\.com$
 (^|\.)rackcdn\.com$
 (^|\.)radar11ab\.co\.uk$
