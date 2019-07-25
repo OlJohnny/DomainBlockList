@@ -30,6 +30,7 @@
 (^|\.)adsnative\.com$
 (^|\.)adtm\.chip\.de$
 (^|\.)adup-tech\.com$
+(^|\.)adzerk\.net$
 (^|\.)airfind\.com$
 (^|\.)akstat\.io$
 (^|\.)alb\.reddit\.com$
@@ -57,6 +58,7 @@
 (^|\.)atwola\.com$
 (^|\.)auditude\.com$
 (^|\.)authedmine\.com$
+(^|\.)aweber\.com$
 (^|\.)axf8\.net$
 (^|\.)bapb\.gdn$
 (^|\.)bat\.bing\.com$
@@ -158,10 +160,13 @@
 (^|\.)emsservice\.de$
 (^|\.)ensighten\.com$
 (^|\.)epoq\.de$
+(^|\.)everesttech\.net$
 (^|\.)evidon\.com$
+(^|\.)exacttarget\.com$
 (^|\.)exelator\.com$
 (^|\.)exoclick\.com$
 (^|\.)externalimg\.cdn\.jodel\.com$
+(^|\.)extole\.io$
 (^|\.)extreme-dm\.com$
 (^|\.)extremereach\.com$
 (^|\.)ezoic\.net$
@@ -223,6 +228,7 @@
 (^|\.)hrahdmon\.com$
 (^|\.)hsbc\.com\.hk$
 (^|\.)hubt\.pornhub\.com$
+(^|\.)hullapp\.io$
 (^|\.)iesnare\.co\.uk$
 (^|\.)ifdef\.jp$
 (^|\.)imangisupport\.com$
@@ -328,6 +334,7 @@
 (^|\.)negty\.net$
 (^|\.)neliver\.com$
 (^|\.)net-filter\.com$
+(^|\.)netmng\.com$
 (^|\.)netsolhost\.com$
 (^|\.)netway\.at$
 (^|\.)news-subscribe\.com$
@@ -374,6 +381,7 @@
 (^|\.)phluantmobile\.net$
 (^|\.)piano\.io$
 (^|\.)pila\.pl$
+(^|\.)piwik\.pro$
 (^|\.)placelocal\.com$
 (^|\.)plista\.com$
 (^|\.)plugrush\.com$
@@ -389,6 +397,7 @@
 (^|\.)pubmatic\.com$
 (^|\.)puhtml\.com$
 (^|\.)puserving\.com$
+(^|\.)pushengage\.com$
 (^|\.)pushwoosh\.com$
 (^|\.)putags\.com$
 (^|\.)pxj-0\.tlnk\.io$
@@ -410,12 +419,12 @@
 (^|\.)research\.de\.com$
 (^|\.)revsci\.net$
 (^|\.)rfihub\.com$
+(^|\.)rfihub\.net$
 (^|\.)rima-tde\.net$
 (^|\.)rocks\.io$
 (^|\.)roosterfirework\.com$
 (^|\.)rosetta\.prod\.ps\.welt\.de$
 (^|\.)rousek\.name$
-(^|\.)rover\.ebay\.de$
 (^|\.)rtstats\.com$
 (^|\.)rubiconproject\.com$
 (^|\.)rxportalhosting\.com$
@@ -477,6 +486,7 @@
 (^|\.)syndicate\.purch\.com$
 (^|\.)t4ft\.de$
 (^|\.)taboola\.com$
+(^|\.)tagcommander\.com$
 (^|\.)tapjoy\.com$
 (^|\.)targetnet\.com$
 (^|\.)teads\.tv$
@@ -578,7 +588,6 @@ amp-analytics
 (^|\.)aeros[0-9]{2}.tk$
 (^|\.)apex[0-9]{1,4}\.(cn|org)$
 (^|\.)banners?[-.]
-(^|\.)blogspot[-.]
 (^|\.)cialis([0-9]|[a-z]){1,10}\.com$
 (^|\.)co-([0-9]|[a-z]){1,4}.bid$
 (^|\.)coin-?h[ia]ve[sr]?[-.]
