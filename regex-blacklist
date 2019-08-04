@@ -91,6 +91,7 @@
 (^|\.)casalemedia\.com$
 (^|\.)cbbp1\.com$
 (^|\.)cdn2\.spiegel\.de$
+(^|\.)cdn\.stroeerdigitalgroup\.de$
 (^|\.)cdn\.zomap\.de$
 (^|\.)cdntrf\.com$
 (^|\.)cedexis-radar\.net$
@@ -147,6 +148,7 @@
 (^|\.)doubleverify\.com$
 (^|\.)downyouxi\.com$
 (^|\.)dreamwithken\.com$
+(^|\.)dunkirkinception\.com$
 (^|\.)dynamic\.dol\.ru$
 (^|\.)dynamicyield\.com$
 (^|\.)ebayrtm\.com$
@@ -192,9 +194,11 @@
 (^|\.)gameanalytics\.com$
 (^|\.)gameplansession\.com$
 (^|\.)gamespy\.com$
+(^|\.)ganon\.yahoo\.com$
 (^|\.)gator\.io$
 (^|\.)gemius\.pl$
 (^|\.)geovisite\.com$
+(^|\.)getback\.ch$
 (^|\.)getsocial\.io$
 (^|\.)glassgret\.com$
 (^|\.)glomex\.com$
@@ -207,6 +211,7 @@
 (^|\.)groovinads\.com$
 (^|\.)growsumo\.com$
 (^|\.)gscontxt\.net$
+(^|\.)gumgum\.com$
 (^|\.)h-bid\.com$
 (^|\.)hammondalatasimages\.com$
 (^|\.)hangoutathome\.com$
@@ -248,6 +253,7 @@
 (^|\.)intellitxt\.com$
 (^|\.)intercom\.io$
 (^|\.)ioam\.de$
+(^|\.)iocnt\.net$
 (^|\.)iqcontentplatform\.de$
 (^|\.)iqm\.de$
 (^|\.)ironbeast\.io$
@@ -305,6 +311,7 @@
 (^|\.)microad\.jp$
 (^|\.)mieseng\.com$
 (^|\.)millennialmedia\.com$
+(^|\.)mindtake\.com$
 (^|\.)minerpool\.net$
 (^|\.)miningpoolhub\.com$
 (^|\.)mirtesen\.ru$
@@ -360,7 +367,6 @@
 (^|\.)opencache\.com$
 (^|\.)opentracker\.com$
 (^|\.)openx\.net$
-(^|\.)opinary\.com$
 (^|\.)opmnstr\.com$
 (^|\.)optimizely\.com$
 (^|\.)optimonk\.com$
@@ -393,6 +399,8 @@
 (^|\.)presage\.io$
 (^|\.)privacy\.purch\.com$
 (^|\.)privy\.com$
+(^|\.)propellerads\.com$
+(^|\.)propellerclick\.com$
 (^|\.)pubguru\.com$
 (^|\.)pubmatic\.com$
 (^|\.)puhtml\.com$
@@ -425,6 +433,7 @@
 (^|\.)roosterfirework\.com$
 (^|\.)rosetta\.prod\.ps\.welt\.de$
 (^|\.)rousek\.name$
+(^|\.)rtmark\.net$
 (^|\.)rtstats\.com$
 (^|\.)rubiconproject\.com$
 (^|\.)rxportalhosting\.com$
@@ -435,6 +444,7 @@
 (^|\.)segment\.com$
 (^|\.)selfcampaign\.com$
 (^|\.)sendpulse\.com$
+(^|\.)sensic\.net$
 (^|\.)serulom\.tk$
 (^|\.)servedbyopenx\.com$
 (^|\.)serverbid\.com$
@@ -475,6 +485,7 @@
 (^|\.)starwave\.com$
 (^|\.)steadyhq\.com$
 (^|\.)stickyadstv\.com$
+(^|\.)subscribers\.com$
 (^|\.)sueddeutsche-de\.sueddeutsche\.de$
 (^|\.)summerhamster\.com$
 (^|\.)supersonicads\.com$
