@@ -79,6 +79,7 @@
 (^|\.)brandreachsys\.com$
 (^|\.)bravenet\.com$
 (^|\.)brightcove\.net$
+(^|\.)brightroll\.com$
 (^|\.)browsermine\.com$
 (^|\.)btncdn\.com$
 (^|\.)btrll\.com$
@@ -97,6 +98,7 @@
 (^|\.)cedexis-radar\.net$
 (^|\.)centade\.com$
 (^|\.)centde\.com$
+(^|\.)chartbeat\.net$
 (^|\.)chartboost\.com$
 (^|\.)checkm8\.com$
 (^|\.)chimpstatic\.com$
@@ -358,6 +360,7 @@
 (^|\.)nuxues\.com$
 (^|\.)oadts\.com$
 (^|\.)oath\.com$
+(^|\.)oewabox\.at$
 (^|\.)offermatica\.com$
 (^|\.)omniture\.com$
 (^|\.)omsnative\.de$
@@ -376,6 +379,7 @@
 (^|\.)overture\.com$
 (^|\.)p2l\.info$
 (^|\.)pathful\.com$
+(^|\.)paypopup\.com$
 (^|\.)peacockphoto\.online$
 (^|\.)peraltek\.com$
 (^|\.)perfdrive\.com$
@@ -666,7 +670,7 @@ amp-analytics
 (^|\.|-|_)telemetry[0-9]*[-_.]
 (^|\.|-|_)warn[li]ng-n[0o]t[il]ce[-_.]
 (^|\.|-|_)(blog|mochi|buysell|blam|moat|deploy)ads?\.com
-(^|\.|-|_)ad(-?legend|alliance|acts|net(work)?|boost|client[0-9]*|techus|clear|clicks?|clickmedia|mitad|blade|knowledge|shuffle|brite|brain|gear|colony|cycle|count|pick|cycle|farm|files|force|form|high|hese|info|ition|just|klic?k|k2x?|link|log|looxtracking|man(ager)?[0-9]?|marketplace|max|media|mob|net(work)?|omik|otmob|nxs|protect|river|roll|safeprotected|search|scale|science|screendirect|serv(ant|ice)|sfac|skeeper|smarket|smart|software|smogo|snew|spirit|sremote|srvmedia|sweb|sys|symptotic|syndication|tags?(ger)?|tailer|tech|(in)?telligence|test|vertserve|volution)[-.]
+(^|\.|-|_)ad-?(legend|alliance|acts|bureau|net(work)?|boost|client[0-9]*|techus|clear|clicks?|clickmedia|mitad|blade|knowledge|shuffle|brite|brain|gear|colony|cycle|count|pick|cycle|farm|files|force|form|high|hese|info|ition|just|klic?k|k2x?|link|log|looxtracking|man(ager)?[0-9]?|marketplace|max|media|mob|net(work)?|omik|otmob|nxs|protect|river|roll|safeprotected|search|scale|science|screendirect|serv(ant|ice)|sfac|skeeper|smarket|smart|software|smogo|snew|spirit|sremote|srvmedia|sweb|sys|symptotic|syndication|tags?(ger)?|tailer|tech|(in)?telligence|test|vertserve|volution)[-.]
 (^|\.|-|_)(alerte?|alarm|code|computer|critical|disk|error|failure|hijack|issue|maxis|notice|pc-scan|risk|scanner|security(-alert)?|top|support|tech|tksecuresupportx|warning|congrats\.net|(go|hits|h)\.(co|net)|ws[0-9]?\.|de[fhjkx]|e[htv]|fb|fs[a-z]|jcb|jp|k[dhj]|co|os|pc)([0-9]|-|[a-z]){0,6}\.(stream|win|online|site)$
 ()ImpersonationSites()
 (^|\.|-|_)microsoft[-_.]?(com|de)[-_.]
