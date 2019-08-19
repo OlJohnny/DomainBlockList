@@ -25,11 +25,15 @@
 (^|\.)addragon\.com$
 (^|\.)addroplet\.com$
 (^|\.)addthis\.com$
+(^|\.)adform\.com$
 (^|\.)adnxs\.com$
 (^|\.)adocean\.pl$
+(^|\.)adroll\.com$
 (^|\.)adsnative\.com$
 (^|\.)adtm\.chip\.de$
 (^|\.)adup-tech\.com$
+(^|\.)adwired\.ch$
+(^|\.)adxxx\.com$
 (^|\.)adzerk\.net$
 (^|\.)airfind\.com$
 (^|\.)akstat\.io$
@@ -52,7 +56,6 @@
 (^|\.)appnexus\.com$
 (^|\.)appsee\.com$
 (^|\.)appsflyer\.com$
-(^|\.)appspot\.com$
 (^|\.)assets\.purch\.com$
 (^|\.)atdmt\.com$
 (^|\.)atwola\.com$
@@ -73,6 +76,7 @@
 (^|\.)bidvertiser\.com$
 (^|\.)bitsontherun\.com$
 (^|\.)bitterstrawberry\.com$
+(^|\.)bizible\.com$
 (^|\.)boltdns\.net$
 (^|\.)bounceexchange\.com$
 (^|\.)branch\.io$
@@ -102,6 +106,7 @@
 (^|\.)chartboost\.com$
 (^|\.)checkm8\.com$
 (^|\.)chimpstatic\.com$
+(^|\.)cityads\.com$
 (^|\.)civpro\.co\.za$
 (^|\.)clearbit\.com$
 (^|\.)cleverpush\.com$
@@ -115,11 +120,10 @@
 (^|\.)compare\.wetter\.com$
 (^|\.)conative\.de$
 (^|\.)connatix\.com$
-(^|\.)consensu\.org$
+(^|\.)connexity\.net$
 (^|\.)content-recommendation\.net$
+(^|\.)contentsquare\.com$
 (^|\.)contextweb\.com$
-(^|\.)cookieconsent\.insites\.com$
-(^|\.)cookielaw\.org$
 (^|\.)cooleremail\.com$
 (^|\.)coremetrics\.com$
 (^|\.)count\.ly$
@@ -185,7 +189,6 @@
 (^|\.)focus-outdoors\.com$
 (^|\.)for-our\.info$
 (^|\.)formalyzer\.com$
-(^|\.)foxpush\.net$
 (^|\.)free\.fr$
 (^|\.)freebitco\.in$
 (^|\.)future-fie-assets\.co\.uk$
@@ -295,6 +298,7 @@
 (^|\.)mailchimp\.com$
 (^|\.)mailmunch\.co$
 (^|\.)mainroll\.com$
+(^|\.)mangoads\.vn$
 (^|\.)marfeel\.com$
 (^|\.)marketgid\.com$
 (^|\.)marketo\.com$
@@ -319,6 +323,7 @@
 (^|\.)mirtesen\.ru$
 (^|\.)mktoresp\.com$
 (^|\.)mktossl\.com$
+(^|\.)mms\.chip\.de$
 (^|\.)mms\.focus\.de$
 (^|\.)mmstat\.com$
 (^|\.)mobileapptracking\.com$
@@ -360,6 +365,7 @@
 (^|\.)nuxues\.com$
 (^|\.)oadts\.com$
 (^|\.)oath\.com$
+(^|\.)ocelot\.studio$
 (^|\.)oewabox\.at$
 (^|\.)offermatica\.com$
 (^|\.)omniture\.com$
@@ -409,12 +415,9 @@
 (^|\.)pubmatic\.com$
 (^|\.)puhtml\.com$
 (^|\.)puserving\.com$
-(^|\.)pushengage\.com$
-(^|\.)pushwoosh\.com$
 (^|\.)putags\.com$
 (^|\.)pxj-0\.tlnk\.io$
 (^|\.)qualtrics\.com$
-(^|\.)quantserve\.com$
 (^|\.)quora\.com$
 (^|\.)rackcdn\.com$
 (^|\.)radar11ab\.co\.uk$
@@ -569,6 +572,7 @@
 (^|\.)web3000\.com$
 (^|\.)wemfbox\.ch$
 (^|\.)wenpie\.com$
+(^|\.)withcubed\.com$
 (^|\.)wns\.windows\.com$
 (^|\.)xaskm\.com$
 (^|\.)xclicks\.net$
@@ -588,6 +592,20 @@
 (^|\.)zeroredirect1?\.com$
 (^|\.)zog\.link$
 (^|\.)zwizzarmyknife\.com$
+()CookieConsent()
+(^|\.)cookiebot\.com$
+(^|\.)cookielaw\.org$
+(^|\.)cookieconsent\.insites\.com$
+(^|\.)quantserve\.com$
+(^|\.)quantcast\.com$
+(^|\.)consensu\.org$
+()Push()
+(^|\.)pushalert\.co$
+(^|\.)foxpush\.net$
+(^|\.)pushengage\.com$
+(^|\.)pushwoosh\.com$
+(^|\.)accengage\.
+()ComplexRegEx()
 amp-analytics
 (^|\.)([0-9]|[a-z]){32}\.(cz\.cc|org)$
 (^|\.)(mkt|sal?)[0-9]*\.com$
@@ -634,6 +652,9 @@ amp-analytics
 (^|\.)mkt[0-9]{2,4}\.(com|net)
 (^|\.)mocean[-.]
 (^|\.)mojiva[-.]
+(^|\.)webgains\.
+(^|\.)marketo\.
+(^|\.)eyeota\.
 (^|\.)monetisetrk[0-9]*\.co\.uk$
 (^|\.)natwest[0-9]*\.ml
 (^|\.)nedstatpro[-.]
