@@ -5,6 +5,7 @@
 ^s\.youtube\.com$
 ^clients[2-5]\.google\.com$
 ()LinkShortener()
+(^|\.)adf\.ly$
 (^|\.)bit\.ly$
 (^|\.)mbed\.ly$
 (^|\.)tinyurl\.com$
@@ -21,7 +22,7 @@
 ^((www|edge-mqtt)\.)?facebook\.com$
 ^(www\.)?instagram\.com$
 ^(www\.)?pinterest\.(com|de)$
-^((www|platform)\.)?twitter\.com$
+^((www|platform|tweetdeck)\.)?twitter\.com$
 ^cdn\.syndication\.twimg\.com$
 ()FASTLYCDN()
 ^fastly\.(net|com)

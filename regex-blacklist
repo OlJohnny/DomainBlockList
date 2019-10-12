@@ -59,6 +59,7 @@
 (^|\.)assets\.purch\.com$
 (^|\.)atdmt\.com$
 (^|\.)atwola\.com$
+(^|\.)audev\.zeit\.de$
 (^|\.)auditude\.com$
 (^|\.)authedmine\.com$
 (^|\.)aweber\.com$
@@ -77,6 +78,7 @@
 (^|\.)bitsontherun\.com$
 (^|\.)bitterstrawberry\.com$
 (^|\.)bizible\.com$
+(^|\.)blubroid\.de$
 (^|\.)boltdns\.net$
 (^|\.)bounceexchange\.com$
 (^|\.)branch\.io$
@@ -87,6 +89,7 @@
 (^|\.)browsermine\.com$
 (^|\.)btncdn\.com$
 (^|\.)btrll\.com$
+(^|\.)btserve\.com$
 (^|\.)btttag\.com$
 (^|\.)c-i\.as$
 (^|\.)c-rewards\.com$
@@ -147,6 +150,7 @@
 (^|\.)directprimal\.com$
 (^|\.)directtrack\.com$
 (^|\.)dkuim\.de$
+(^|\.)dmgmediaprivacy\.co\.uk$
 (^|\.)dnset\.com$
 (^|\.)domdex\.com$
 (^|\.)dotomi\.com$
@@ -189,6 +193,7 @@
 (^|\.)focus-outdoors\.com$
 (^|\.)for-our\.info$
 (^|\.)formalyzer\.com$
+(^|\.)fqtag\.com$
 (^|\.)free\.fr$
 (^|\.)freebitco\.in$
 (^|\.)future-fie-assets\.co\.uk$
@@ -440,6 +445,7 @@
 (^|\.)roosterfirework\.com$
 (^|\.)rosetta\.prod\.ps\.welt\.de$
 (^|\.)rousek\.name$
+(^|\.)rtk\.io$
 (^|\.)rtmark\.net$
 (^|\.)rtstats\.com$
 (^|\.)rubiconproject\.com$
@@ -492,6 +498,7 @@
 (^|\.)starwave\.com$
 (^|\.)steadyhq\.com$
 (^|\.)stickyadstv\.com$
+(^|\.)stroeerdp\.de$
 (^|\.)subscribers\.com$
 (^|\.)sueddeutsche-de\.sueddeutsche\.de$
 (^|\.)summerhamster\.com$
@@ -583,6 +590,7 @@
 (^|\.)xxxcounter\.com$
 (^|\.)yamanoha\.com$
 (^|\.)yastatic\.net$
+(^|\.)yatds\.com$
 (^|\.)yesadvertising\.com$
 (^|\.)yieldlab\.net$
 (^|\.)yieldlove\.com$
@@ -599,6 +607,7 @@
 (^|\.)quantserve\.com$
 (^|\.)quantcast\.com$
 (^|\.)consensu\.org$
+(^|\.)privacy-center\.org$
 ()Push()
 (^|\.)pushalert\.co$
 (^|\.)foxpush\.net$
