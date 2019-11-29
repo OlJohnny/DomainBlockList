@@ -27,12 +27,12 @@
 ()FASTLYCDN()
 ^fastly\.(net|com)
 ()REGULAR()
-^asadcdn\.com$
 ^alluremedia\.com\.au
 ^android\.clients\.google\.com
 ^api\.ipify\.org
 ^apps\.skype\.com
 ^apresolve\.spotify\.com
+^asadcdn\.com$
 ^attestation\.xboxlive\.com
 ^c\.s-microsoft\.com
 ^captive\.apple\.com
@@ -78,6 +78,7 @@
 ^pricelist\.skype\.com
 ^prod\.telemetry\.ros\.rockstargames\.com
 ^products\.office\.com
+^rds-assets\.nvidia\.com
 ^res\.cloudinary\.com
 ^s[1-5]\.symcb\.com
 ^s\.gateway\.messenger\.live\.com
@@ -86,10 +87,12 @@
 ^sa\.symcb\.com
 ^settings-win\.data\.microsoft\.com
 ^spclient\.wg\.spotify\.com
+^stats2\.u\.gg
 ^stats\.t-online\.de
 ^title\.auth\.xboxlive\.com
 ^title\.mgt\.xboxlive\.com
 ^tomshardware\.com
+^traffic\.megaphone\.fm
 ^ui\.skype\.com
 ^v10\.vortex-win\.data\.microsoft\.com
 ^v[12]0\.events\.data\.microsoft\.com
