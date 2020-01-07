@@ -26,6 +26,10 @@
 ^cdn\.syndication\.twimg\.com$
 ()FASTLYCDN()
 ^fastly\.(net|com)
+()NVIDIA()
+\.gfe\.nvidia\.com$
+\.nvgs\.nvidia\.com$
+^[a-z]*\.nvidia\.com$
 ()REGULAR()
 ^alluremedia\.com\.au
 ^android\.clients\.google\.com

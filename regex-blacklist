@@ -49,6 +49,7 @@
 (^|\.)amunx\.de$
 (^|\.)andbeyond\.media$
 (^|\.)aniview\.com$
+(^|\.)anyclip\.com$
 (^|\.)apester\.com$
 (^|\.)appads\.com$
 (^|\.)appier\.net$
@@ -115,6 +116,7 @@
 (^|\.)clearbit\.com$
 (^|\.)cleverpush\.com$
 (^|\.)clksite\.com$
+(^|\.)cmp\.pcwelt\.de$
 (^|\.)cnt\.wetteronline\.de$
 (^|\.)cnzz\.com$
 (^|\.)coinhive\.com$
@@ -210,7 +212,9 @@
 (^|\.)gemius\.pl$
 (^|\.)geovisite\.com$
 (^|\.)getback\.ch$
+(^|\.)getsitecontrol\.com$
 (^|\.)getsocial\.io$
+(^|\.)giga-abs\.de$
 (^|\.)glassgret\.com$
 (^|\.)glomex\.com$
 (^|\.)go2affise\.com$
@@ -269,6 +273,7 @@
 (^|\.)iqcontentplatform\.de$
 (^|\.)iqm\.de$
 (^|\.)ironbeast\.io$
+(^|\.)isondled\.net$
 (^|\.)iteratehq\.com$
 (^|\.)ivwbox\.de$
 (^|\.)iwanttodeliver\.com$
@@ -378,7 +383,6 @@
 (^|\.)omniture\.com$
 (^|\.)omsnative\.de$
 (^|\.)omtrdc\.net$
-(^|\.)omtrdc\.net$
 (^|\.)onthe\.io$
 (^|\.)opecloud\.com$
 (^|\.)opencache\.com$
@@ -452,6 +456,7 @@
 (^|\.)rtmark\.net$
 (^|\.)rtstats\.com$
 (^|\.)rubiconproject\.com$
+(^|\.)rvty\.net$
 (^|\.)rxportalhosting\.com$
 (^|\.)s-onetag\.com$
 (^|\.)schrotty\.la\.welt\.de$
@@ -499,6 +504,7 @@
 (^|\.)ssl\.2\.damoh\.chip\.de$
 (^|\.)startappservice\.com$
 (^|\.)starwave\.com$
+(^|\.)statsy\.net$
 (^|\.)steadyhq\.com$
 (^|\.)stickyadstv\.com$
 (^|\.)stroeerdp\.de$
@@ -526,6 +532,7 @@
 (^|\.)theadex\.com$
 (^|\.)thesearchagency\.net$
 (^|\.)thewhizmarketing\.com$
+(^|\.)threepi\.de$
 (^|\.)thruport\.com$
 (^|\.)tidafors\.xyz$
 (^|\.)timesink\.com$
@@ -533,12 +540,14 @@
 (^|\.)tisoomi-services\.com$
 (^|\.)tlnk\.io$
 (^|\.)toboads\.com$
+(^|\.)toi\.de$
 (^|\.)touchcommerce\.com$
 (^|\.)tpnet\.pl$
 (^|\.)trackalyzer\.com$
 (^|\.)tradedoubler\.com$
 (^|\.)trafficforce\.com$
 (^|\.)trafficjunky\.net$
+(^|\.)traq\.li$
 (^|\.)trbo\.com$
 (^|\.)tribalfusion\.com$
 (^|\.)truconversion\.com$
@@ -592,6 +601,7 @@
 (^|\.)xpanama\.net$
 (^|\.)xplosion\.de$
 (^|\.)xxxcounter\.com$
+(^|\.)yagiay\.com$
 (^|\.)yamanoha\.com$
 (^|\.)yastatic\.net$
 (^|\.)yatds\.com$
@@ -665,6 +675,8 @@ amp-analytics
 (^|\.)mkt[0-9]{2,4}\.(com|net)
 (^|\.)mocean[-.]
 (^|\.)mojiva[-.]
+(^|\.)rum(cdn)?\.
+\.damoh\.
 (^|\.)webgains\.
 (^|\.)marketo\.
 (^|\.)eyeota\.
