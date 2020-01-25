@@ -180,7 +180,6 @@
 (^|\.)exacttarget\.com$
 (^|\.)exelator\.com$
 (^|\.)exoclick\.com$
-(^|\.)externalimg\.cdn\.jodel\.com$
 (^|\.)extole\.io$
 (^|\.)extreme-dm\.com$
 (^|\.)extremereach\.com$
@@ -315,6 +314,7 @@
 (^|\.)marketgid\.com$
 (^|\.)marketo\.com$
 (^|\.)marsello\.com$
+(^|\.)mateti\.net$
 (^|\.)mathtag\.com$
 (^|\.)matomo\.org$
 (^|\.)mbservicesyorkshire\.co\.uk$
@@ -346,6 +346,7 @@
 (^|\.)moresophy\.net$
 (^|\.)mouseflow\.com$
 (^|\.)movad\.net$
+(^|\.)movie-pass\.live$
 (^|\.)mparticle\.com$
 (^|\.)mpnrs\.com$
 (^|\.)mpstat\.us$
@@ -363,6 +364,7 @@
 (^|\.)netmng\.com$
 (^|\.)netsolhost\.com$
 (^|\.)netway\.at$
+(^|\.)network-n\.com$
 (^|\.)news-subscribe\.com$
 (^|\.)newsletter2go\.com$
 (^|\.)nezavisnisindikatbvk\.rs$
@@ -389,8 +391,10 @@
 (^|\.)opentracker\.com$
 (^|\.)openx\.net$
 (^|\.)opmnstr\.com$
+(^|\.)optanon\.blob\.core\.windows\.net$
 (^|\.)optimizely\.com$
 (^|\.)optimonk\.com$
+(^|\.)origin-images\.wikia\.com$
 (^|\.)ourtoolbar\.com$
 (^|\.)outbrain\.com$
 (^|\.)outster\.com$
@@ -431,7 +435,6 @@
 (^|\.)pxj-0\.tlnk\.io$
 (^|\.)qualtrics\.com$
 (^|\.)quora\.com$
-(^|\.)rackcdn\.com$
 (^|\.)radar11ab\.co\.uk$
 (^|\.)radiantmediatechs\.com$
 (^|\.)ramp\.purch\.com$
@@ -445,8 +448,6 @@
 (^|\.)reporo\.net$
 (^|\.)research\.de\.com$
 (^|\.)revsci\.net$
-(^|\.)rfihub\.com$
-(^|\.)rfihub\.net$
 (^|\.)rima-tde\.net$
 (^|\.)rocks\.io$
 (^|\.)roosterfirework\.com$
@@ -541,6 +542,7 @@
 (^|\.)tlnk\.io$
 (^|\.)toboads\.com$
 (^|\.)toi\.de$
+(^|\.)topperformance\.xyz$
 (^|\.)touchcommerce\.com$
 (^|\.)tpnet\.pl$
 (^|\.)trackalyzer\.com$
@@ -563,8 +565,10 @@
 (^|\.)umeng\.com$
 (^|\.)unbounce\.com$
 (^|\.)underpains\.duckdns\.org$
+(^|\.)upscore\.com$
 (^|\.)urbanairship\.com$
 (^|\.)user(like|cash)\.com$
+(^|\.)userreport\.com$
 (^|\.)valueclick\.com$
 (^|\.)vectranet\.pl$
 (^|\.)vertamedia\.com$
@@ -622,15 +626,19 @@
 (^|\.)quantcast\.com$
 (^|\.)consensu\.org$
 (^|\.)privacy-center\.org$
+\.usercentrics\.eu$
 ()Push()
+(^|\.)push[-_.]
 (^|\.)pushalert\.co$
 (^|\.)foxpush\.net$
 (^|\.)pushengage\.com$
+\.pushowl\.com$
 (^|\.)pushwoosh\.com$
 (^|\.)accengage\.
 ()ComplexRegEx()
 amp-analytics
 (^|\.)([0-9]|[a-z]){32}\.(cz\.cc|org)$
+(^|\.)rfihub\.(com|net)$
 (^|\.)(mkt|sal?)[0-9]*\.com$
 (^|\.)(pixel|config)\.parsely\.com$
 (^|\.)000webhostapp[-.]
@@ -684,6 +692,7 @@ amp-analytics
 (^|\.)natwest[0-9]*\.ml
 (^|\.)nedstatpro[-.]
 (^|\.)nimiq(-network|test)?\.(net|com)
+(^|\.)external(img|vid)\.cdn\.jodel\.com$
 (^|\.)ns[0-9]*[-.]
 (^|\.)pixels?[-.]
 (^|\.)sagawaa?-?([0-9]|[a-z])*\.com$
