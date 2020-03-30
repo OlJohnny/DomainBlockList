@@ -26,10 +26,13 @@
 (^|\.)addroplet\.com$
 (^|\.)addthis\.com$
 (^|\.)adform\.com$
+(^|\.)admicro\.vn$
 (^|\.)adnxs\.com$
 (^|\.)adocean\.pl$
 (^|\.)adroll\.com$
 (^|\.)adsnative\.com$
+(^|\.)adswizz\.com$
+(^|\.)adtelligent\.com$
 (^|\.)adtm\.chip\.de$
 (^|\.)adup-tech\.com$
 (^|\.)adwired\.ch$
@@ -68,6 +71,7 @@
 (^|\.)bapb\.gdn$
 (^|\.)bat\.bing\.com$
 (^|\.)batbing\.com$
+(^|\.)batmobi\.net$
 (^|\.)bbelements\.com$
 (^|\.)beeketing\.com$
 (^|\.)beget\.tech$
@@ -86,6 +90,7 @@
 (^|\.)branch\.io$
 (^|\.)brandreachsys\.com$
 (^|\.)bravenet\.com$
+(^|\.)braze\.com$
 (^|\.)brightcove\.net$
 (^|\.)brightroll\.com$
 (^|\.)browsermine\.com$
@@ -136,6 +141,7 @@
 (^|\.)cqcounter\.com$
 (^|\.)crazyegg\.com$
 (^|\.)criteo\.com$
+(^|\.)criteo\.net$
 (^|\.)crittercism\.com$
 (^|\.)crownpeak\.com$
 (^|\.)crwdcntrl\.net$
@@ -143,10 +149,12 @@
 (^|\.)csgocpu\.com$
 (^|\.)ct\.sendgrid\.net$
 (^|\.)ctinets\.com$
+(^|\.)cxpublic\.com$
 (^|\.)datasecu\.download$
 (^|\.)ddns\.name$
 (^|\.)deepmarkit\.com$
 (^|\.)delta-boa\.com$
+(^|\.)deltadna\.net$
 (^|\.)demandbase\.com$
 (^|\.)demdex\.net$
 (^|\.)df-srv\.de$
@@ -176,6 +184,7 @@
 (^|\.)ensighten\.com$
 (^|\.)epoq\.de$
 (^|\.)everesttech\.net$
+(^|\.)evergage\.com$
 (^|\.)evidon\.com$
 (^|\.)exacttarget\.com$
 (^|\.)exelator\.com$
@@ -196,6 +205,7 @@
 (^|\.)for-our\.info$
 (^|\.)formalyzer\.com$
 (^|\.)fqtag\.com$
+(^|\.)fractionalmedia\.com$
 (^|\.)free\.fr$
 (^|\.)freebitco\.in$
 (^|\.)future-fie-assets\.co\.uk$
@@ -203,6 +213,7 @@
 (^|\.)fwmrm\.net$
 (^|\.)fyber\.com$
 (^|\.)fzkjxy\.com$
+(^|\.)g2afse\.com$
 (^|\.)gameanalytics\.com$
 (^|\.)gameplansession\.com$
 (^|\.)gamespy\.com$
@@ -251,6 +262,7 @@
 (^|\.)idg\.zone$
 (^|\.)iesnare\.co\.uk$
 (^|\.)ifdef\.jp$
+(^|\.)igexin\.com$
 (^|\.)imangisupport\.com$
 (^|\.)imrworldwide\.com$
 (^|\.)inclk\.com$
@@ -293,6 +305,7 @@
 (^|\.)krxd\.net$
 (^|\.)kzpcmad\.tk$
 (^|\.)leadlander\.com$
+(^|\.)leadpages\.net$
 (^|\.)leanlab\.co$
 (^|\.)lenta\.ru$
 (^|\.)liadm\.com$
@@ -475,11 +488,13 @@
 (^|\.)sexybabesx\.com$
 (^|\.)shappify\.com$
 (^|\.)sharedsource\.org$
+(^|\.)sharethrough\.com$
 (^|\.)shinystat\.com$
 (^|\.)shopping\.t-online\.de$
 (^|\.)shopstars\.org$
 (^|\.)sig-eb\.me$
 (^|\.)silktide\.com$
+(^|\.)singular\.net$
 (^|\.)sitemeter\.com$
 (^|\.)sitestats\.com$
 (^|\.)skimresources\.com$
@@ -555,6 +570,7 @@
 (^|\.)truconversion\.com$
 (^|\.)truespeedlink\.com$
 (^|\.)trustarc\.com$
+(^|\.)ttoc8ok\.com$
 (^|\.)tubemogul\.com$
 (^|\.)tubesmobile\.com$
 (^|\.)tudown\.com$
@@ -571,8 +587,10 @@
 (^|\.)userreport\.com$
 (^|\.)valueclick\.com$
 (^|\.)vectranet\.pl$
+(^|\.)veinteractive\.com$
 (^|\.)vertamedia\.com$
 (^|\.)veruta\.com$
+(^|\.)vhb\.de$
 (^|\.)vi-serve\.com$
 (^|\.)video-ak\.cdn\.spotify\.com$
 (^|\.)videoplaza\.tv$
