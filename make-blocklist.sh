@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# github.com/OlJohnny | 2019
+# github.com/OlJohnny | 2020
 
 set -o errexit
 set -o pipefail
@@ -50,44 +50,44 @@ fi
 
 ### reset files ###
 rm -rf ./.blocklist-work*
-rm -rf ./blocklist-fin
+rm -rf ./blocklist-fin.txt
 
-touch ./.blocklist-work0
-touch ./.blocklist-work1
-touch ./.blocklist-work2
-touch ./blocklist-fin
+touch ./.blocklist-work0.txt
+touch ./.blocklist-work1.txt
+touch ./.blocklist-work2.txt
+touch ./blocklist-fin.txt
 
 chmod -f 775 ./.blocklist-work*
-chmod -f 775 ./blocklist-fin
+chmod -f 775 ./blocklist-fin.txt
 
-dos2unix --quiet ./blocklist-links
-dos2unix --quiet ./regex-blacklist
-dos2unix --quiet ./regex-whitelist
+dos2unix --quiet ./blocklist-links.txt
+dos2unix --quiet ./regex-denylist.txt
+dos2unix --quiet ./regex-allowlist.txt
 
 
 
 ##### DO STUFF #####
 ### get blocklists from 'blocklist-links' and 'custom-links' ###
 echo -e "\n<$(date +"%T")> Downloading Source Blocklists...\e[90m"
-wget --quiet --show-progress --output-document=- --input-file=./blocklist-links > ./.blocklist-work0
-wget --quiet --show-progress --output-document=- --input-file=./custom-links >> ./.blocklist-work0
+wget --quiet --show-progress --output-document=- --input-file=./blocklist-links.txt > ./.blocklist-work0.txt
+wget --quiet --show-progress --output-document=- --input-file=./custom-links.txt >> ./.blocklist-work0.txt
 
 
 ### remove comments, null ips and blank space. sort the list ###
 echo -e "\e[0m\n<$(date +"%T")> Sorting and Cleaning Blocklist..."
-sed --in-place 's/0\.0\.0\.0//g' ./.blocklist-work0
-sed --in-place 's/127\.0\.0\.1//g' ./.blocklist-work0
-sed --in-place 's/ //g' ./.blocklist-work0
-sed --in-place 's/[[:blank:]]//g' ./.blocklist-work0
-sed --in-place 's/[[:space:]]//g' ./.blocklist-work0
-sed --in-place 's/#.*//g' ./.blocklist-work0
-sort --unique ./.blocklist-work0 --output=./.blocklist-work1
+sed --in-place 's/0\.0\.0\.0//g' ./.blocklist-work0.txt
+sed --in-place 's/127\.0\.0\.1//g' ./.blocklist-work0.txt
+sed --in-place 's/ //g' ./.blocklist-work0.txt
+sed --in-place 's/[[:blank:]]//g' ./.blocklist-work0.txt
+sed --in-place 's/[[:space:]]//g' ./.blocklist-work0.txt
+sed --in-place 's/#.*//g' ./.blocklist-work0.txt
+sort --unique ./.blocklist-work0.txt --output=./.blocklist-work1.txt
 
 
-### apply 'regex-blocklist' and 'regex-whitelist' ###
+### apply 'regex-blocklist' and 'regex-allowlist' ###
 echo -e "\n<$(date +"%T")> Applying RegEx Black- and Whitelist..."
-grep --extended-regexp --invert-match --file=./regex-blacklist ./.blocklist-work1 > ./.blocklist-work2
-grep --extended-regexp --invert-match --file=./regex-whitelist ./.blocklist-work2 > ./blocklist-fin
+grep --extended-regexp --invert-match --file=./regex-denylist.txt ./.blocklist-work1.txt > ./.blocklist-work2.txt
+grep --extended-regexp --invert-match --file=./regex-allowlist.txt ./.blocklist-work2.txt > ./blocklist-fin.txt
 
 
 

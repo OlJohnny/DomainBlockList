@@ -1,4 +1,3 @@
-^[ ]*[	]*\#
 (^|\.)016272\.com$
 (^|\.)0x1f4b0\.com$
 (^|\.)163\.com$
@@ -14,6 +13,7 @@
 (^|\.)33across\.com$
 (^|\.)51yes\.com$
 (^|\.)71i\.de$
+(^|\.)7eer\.net$
 (^|\.)7wkw\.com$
 (^|\.)9xiazaiqi\.com$
 (^|\.)a\.ria\.ru$$
@@ -29,8 +29,10 @@
 (^|\.)admicro\.vn$
 (^|\.)adnxs\.com$
 (^|\.)adocean\.pl$
+(^|\.)adoric-om\.com$
 (^|\.)adroll\.com$
 (^|\.)adsnative\.com$
+(^|\.)adsparc\.com$
 (^|\.)adswizz\.com$
 (^|\.)adtelligent\.com$
 (^|\.)adtm\.chip\.de$
@@ -54,6 +56,7 @@
 (^|\.)aniview\.com$
 (^|\.)anyclip\.com$
 (^|\.)apester\.com$
+(^|\.)apilivechat\.com$
 (^|\.)appads\.com$
 (^|\.)appier\.net$
 (^|\.)applovin\.com$
@@ -76,6 +79,7 @@
 (^|\.)beeketing\.com$
 (^|\.)beget\.tech$
 (^|\.)beliefnet\.com$
+(^|\.)bestcdnforbusiness\.com$
 (^|\.)bestdeals\.at$
 (^|\.)bf-tools\.net$
 (^|\.)bidhead\.net$
@@ -84,6 +88,7 @@
 (^|\.)bitsontherun\.com$
 (^|\.)bitterstrawberry\.com$
 (^|\.)bizible\.com$
+(^|\.)bizrateservices\.com$
 (^|\.)blubroid\.de$
 (^|\.)boltdns\.net$
 (^|\.)bounceexchange\.com$
@@ -105,6 +110,7 @@
 (^|\.)carecart\.io$
 (^|\.)casalemedia\.com$
 (^|\.)cbbp1\.com$
+(^|\.)cddn\.site$
 (^|\.)cdn2\.spiegel\.de$
 (^|\.)cdn\.stroeerdigitalgroup\.de$
 (^|\.)cdn\.zomap\.de$
@@ -149,6 +155,7 @@
 (^|\.)csgocpu\.com$
 (^|\.)ct\.sendgrid\.net$
 (^|\.)ctinets\.com$
+(^|\.)cxizi\.net$
 (^|\.)cxpublic\.com$
 (^|\.)datasecu\.download$
 (^|\.)ddns\.name$
@@ -183,9 +190,11 @@
 (^|\.)emsservice\.de$
 (^|\.)ensighten\.com$
 (^|\.)epoq\.de$
+(^|\.)esy\.es$
 (^|\.)everesttech\.net$
 (^|\.)evergage\.com$
 (^|\.)evidon\.com$
+(^|\.)evyy\.net$
 (^|\.)exacttarget\.com$
 (^|\.)exelator\.com$
 (^|\.)exoclick\.com$
@@ -222,6 +231,7 @@
 (^|\.)gemius\.pl$
 (^|\.)geovisite\.com$
 (^|\.)getback\.ch$
+(^|\.)getclicky\.com$
 (^|\.)getsitecontrol\.com$
 (^|\.)getsocial\.io$
 (^|\.)giga-abs\.de$
@@ -289,9 +299,12 @@
 (^|\.)ivwbox\.de$
 (^|\.)iwanttodeliver\.com$
 (^|\.)izooto\.com$
+(^|\.)j-queries\.com$
 (^|\.)jmp9\.com$
+(^|\.)jqueryanalise\.xyz$
 (^|\.)jqwww\.download$
 (^|\.)judge\.la\.welt\.de$
+(^|\.)juicyads\.com$
 (^|\.)jumptap\.com$
 (^|\.)justclick\.ru$
 (^|\.)justns\.ru$
@@ -302,11 +315,13 @@
 (^|\.)keywee\.co$
 (^|\.)keywordblocks\.com$
 (^|\.)kissmetrics\.com$
+(^|\.)koinweb\.site$
 (^|\.)krxd\.net$
 (^|\.)kzpcmad\.tk$
 (^|\.)leadlander\.com$
 (^|\.)leadpages\.net$
 (^|\.)leanlab\.co$
+(^|\.)lebs\.site$
 (^|\.)lenta\.ru$
 (^|\.)liadm\.com$
 (^|\.)licdn\.com$
@@ -314,10 +329,12 @@
 (^|\.)lijit\.com$
 (^|\.)liveadreamlifestyle\.com$
 (^|\.)liveadvert\.com$
+(^|\.)liveperson\.net$
 (^|\.)livetex\.ru$
 (^|\.)llnwd\.net$
 (^|\.)m-pathy\.com$
 (^|\.)madpendesign\.com\.au$
+(^|\.)magentorates\.com$
 (^|\.)magnetic\.com$
 (^|\.)mailchimp\.com$
 (^|\.)mailmunch\.co$
@@ -353,6 +370,7 @@
 (^|\.)mmstat\.com$
 (^|\.)mobileapptracking\.com$
 (^|\.)mobpartner\.mobi$
+(^|\.)moengage\.com$
 (^|\.)monerise\.com$
 (^|\.)mookie1\.com$
 (^|\.)mopub\.com$
@@ -395,6 +413,8 @@
 (^|\.)ocelot\.studio$
 (^|\.)oewabox\.at$
 (^|\.)offermatica\.com$
+(^|\.)offerstrack\.net$
+(^|\.)ojrq\.net$
 (^|\.)omniture\.com$
 (^|\.)omsnative\.de$
 (^|\.)omtrdc\.net$
@@ -407,6 +427,7 @@
 (^|\.)optanon\.blob\.core\.windows\.net$
 (^|\.)optimizely\.com$
 (^|\.)optimonk\.com$
+(^|\.)optimove\.net$
 (^|\.)origin-images\.wikia\.com$
 (^|\.)ourtoolbar\.com$
 (^|\.)outbrain\.com$
@@ -427,9 +448,11 @@
 (^|\.)piano\.io$
 (^|\.)pila\.pl$
 (^|\.)piwik\.pro$
+(^|\.)pixasbay\.com$
 (^|\.)placelocal\.com$
 (^|\.)plista\.com$
 (^|\.)plugrush\.com$
+(^|\.)popads\.net$
 (^|\.)popmarker\.com$
 (^|\.)porntrack\.com$
 (^|\.)powr\.io$
@@ -440,11 +463,13 @@
 (^|\.)privy\.com$
 (^|\.)propellerads\.com$
 (^|\.)propellerclick\.com$
+(^|\.)psas\.pw$
 (^|\.)pubguru\.com$
 (^|\.)pubmatic\.com$
 (^|\.)puhtml\.com$
 (^|\.)puserving\.com$
 (^|\.)putags\.com$
+(^|\.)pxf\.io$
 (^|\.)pxj-0\.tlnk\.io$
 (^|\.)qualtrics\.com$
 (^|\.)quora\.com$
@@ -506,6 +531,7 @@
 (^|\.)sokrati\.com$
 (^|\.)solarleadfactory\.com$
 (^|\.)sonobi\.com$
+(^|\.)sonol\.site$
 (^|\.)soup\.io$
 (^|\.)sourcepoint\.vice\.com$
 (^|\.)speedcurve\.com$
@@ -541,6 +567,7 @@
 (^|\.)targetnet\.com$
 (^|\.)teads\.tv$
 (^|\.)tealiumiq\.com$
+(^|\.)teamsystems\.info$
 (^|\.)technical-service\.net$
 (^|\.)tenderapp\.com$
 (^|\.)teste\.website$
@@ -559,6 +586,7 @@
 (^|\.)toi\.de$
 (^|\.)topperformance\.xyz$
 (^|\.)touchcommerce\.com$
+(^|\.)towbarchat\.com$
 (^|\.)tpnet\.pl$
 (^|\.)trackalyzer\.com$
 (^|\.)tradedoubler\.com$
@@ -580,6 +608,7 @@
 (^|\.)ukrtel\.net$
 (^|\.)umeng\.com$
 (^|\.)unbounce\.com$
+(^|\.)undecoveria\.com$
 (^|\.)underpains\.duckdns\.org$
 (^|\.)upscore\.com$
 (^|\.)urbanairship\.com$
@@ -602,6 +631,8 @@
 (^|\.)voluumtrk\.com$
 (^|\.)voodoo\.com$
 (^|\.)vpptechnologies\.com$
+(^|\.)vrtzads\.com$
+(^|\.)vrvm\.com$
 (^|\.)vtracy\.de$
 (^|\.)vungle\.com$
 (^|\.)vuukle\.com$
@@ -611,15 +642,20 @@
 (^|\.)wcfbc\.net$
 (^|\.)wcomhost\.com$
 (^|\.)web3000\.com$
+(^|\.)webtrans\.site$
 (^|\.)wemfbox\.ch$
 (^|\.)wenpie\.com$
 (^|\.)wistia\.com$
 (^|\.)withcubed\.com$
 (^|\.)wns\.windows\.com$
+(^|\.)wosus\.site$
+(^|\.)xapads\.com$
 (^|\.)xaskm\.com$
+(^|\.)xciy\.net$
 (^|\.)xclicks\.net$
 (^|\.)xg4ken\.com$
 (^|\.)xiti\.com$
+(^|\.)xoet\.site$
 (^|\.)xpanama\.net$
 (^|\.)xplosion\.de$
 (^|\.)xxxcounter\.com$
@@ -631,6 +667,8 @@
 (^|\.)yieldlab\.net$
 (^|\.)yieldlove\.com$
 (^|\.)youboranqs01\.com$
+(^|\.)yxxi\.net$
+(^|\.)yzxi\.net$
 (^|\.)z\.cash$
 (^|\.)zedo\.com$
 (^|\.)zeroredirect1?\.com$
@@ -654,8 +692,9 @@
 (^|\.)pushwoosh\.com$
 (^|\.)accengage\.
 ()ComplexRegEx()
-amp-analytics
+\.damoh\.
 (^|\.)([0-9]|[a-z]){32}\.(cz\.cc|org)$
+(^|\.)adsplay\.(xyz|net)
 (^|\.)rfihub\.(com|net)$
 (^|\.)(mkt|sal?)[0-9]*\.com$
 (^|\.)(pixel|config)\.parsely\.com$
@@ -702,7 +741,6 @@ amp-analytics
 (^|\.)mocean[-.]
 (^|\.)mojiva[-.]
 (^|\.)rum(cdn)?\.
-\.damoh\.
 (^|\.)webgains\.
 (^|\.)marketo\.
 (^|\.)eyeota\.
@@ -745,13 +783,6 @@ amp-analytics
 (^|\.|-|_)(blog|mochi|buysell|blam|moat|deploy)ads?\.com
 (^|\.|-|_)ad-?(legend|alliance|acts|bureau|net(work)?|boost|client[0-9]*|techus|clear|clicks?|clickmedia|mitad|blade|knowledge|shuffle|brite|brain|gear|colony|cycle|count|pick|cycle|farm|files|force|form|high|hese|info|ition|just|klic?k|k2x?|link|log|looxtracking|man(ager)?[0-9]?|marketplace|max|media|mob|net(work)?|omik|otmob|nxs|protect|river|roll|safeprotected|search|scale|science|screendirect|serv(ant|ice)|sfac|skeeper|smarket|smart|software|smogo|snew|spirit|sremote|srvmedia|sweb|sys|symptotic|syndication|tags?(ger)?|tailer|tech|(in)?telligence|test|vertserve|volution)[-.]
 (^|\.|-|_)(alerte?|alarm|code|computer|critical|disk|error|failure|hijack|issue|maxis|notice|pc-scan|risk|scanner|security(-alert)?|top|support|tech|tksecuresupportx|warning|congrats\.net|(go|hits|h)\.(co|net)|ws[0-9]?\.|de[fhjkx]|e[htv]|fb|fs[a-z]|jcb|jp|k[dhj]|co|os|pc)([0-9]|-|[a-z]){0,6}\.(stream|win|online|site)$
-()ImpersonationSites()
-(^|\.|-|_)microsoft[-_.]?(com|de)[-_.]
-(^|\.|-|_)amazon[-_.]?(com|de)[-_.]
-(^|\.|-|_)apple[-_.]?(com|de)[-_.]
-(^|\.|-|_)bankofamerica[-_.]?com[-_.]
-(^|\.|-|_)wellsfargo[-_.]?com[-_.]
-(^|\.|-|_)pav?ypal[-_.]?(com|de|service|co\.uk|fr)[-_.]
 ()SocialMediaTracker()
 ^(connect|graph)\.(facebook|instagram)\.(com|net)$
 ^syndication\.twitter\.com$
