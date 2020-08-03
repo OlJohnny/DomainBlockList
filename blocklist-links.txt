@@ -2,8 +2,6 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://mirror1.malwaredomains.com/files/justdomains
 https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
-https://hosts-file.net/ad_servers.txt
-https://hosts-file.net/grm.txt
 https://reddestdream.github.io/Projects/MinimalHosts/etc/MinimalHostsBlocker/minimalhosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts
@@ -12,7 +10,6 @@ https://adaway.org/hosts.txt
 https://v.firebog.net/hosts/AdguardDNS.txt
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
-https://hosts-file.net/ad_servers.txt
 https://v.firebog.net/hosts/Easylist.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
