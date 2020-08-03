@@ -1,4 +1,3 @@
-
 0000mps.webpreview.dsl.net
 0001.2waky.com
 000free.us
@@ -953,8 +952,6 @@
 1ibpz7namvc8194z9hkj37ali.designmysite.pro
 1.idc100.com
 1.ideng.com
-::1ip6-localhost
-::1ip6-loopback
 1.isanxia.com
 1jd482s14huqj2i9ssjx20v8jw.com
 1.jeasyui.net
@@ -976,7 +973,6 @@
 1lib.cn
 1limited-account.cf
 1lo0.net
-::1localhost
 1l-view.mail.ru
 1.lvshi567.com
 1lzz.com
@@ -4930,29 +4926,9 @@ admix.in
 admized.com
 admktsvc.atlassolutions.com
 admngronline.com
-::admob.biz
 admobclick.com
-::admob.co.kr
-::admob.com
-::admob.co.nz
-::admob.co.uk
-::admob.de
-::admob.dk
-::admob.es
-::admob.fi
-::admob.fr
-::admob.gr
 admobile.com
 admobi.ru
-::admob.it
-::admob.jp
-::admob.kr
-::admob.mobi
-::admob.no
-::admob.pt
-::admob.sg
-::admob.tw
-::admob.vn
 admoda.com
 a.d.mojigaga.com
 admonitor.com
@@ -5642,9 +5618,7 @@ adswitcher.com
 adswrapme.click
 adsxgm.com
 adsxyz.com
-::ads.yimg.com
 adsynergy.com
-::ads.youtube.com
 adsyst.biz
 adsystem.simplemachines.org
 adsyst.net
@@ -10742,7 +10716,6 @@ assets.ipcdigital.co.uk
 assets.iterable.com
 assets.jetlore.com
 assets-jpcust.jwpsrv.com
-::assets.kixer.com
 assets.kixer.com
 assets.kochava.com
 assets.kromtech.net
@@ -11711,7 +11684,6 @@ az361816.vo.msecnd.net
 az416426.vo.msecnd.net
 az512334.vo.msecnd.net
 az693360.vo.msecnd.net
-::az708531.vo.msecnd.net
 az708531.vo.msecnd.net
 az7t8.com
 azadbdgroup.com
@@ -14351,7 +14323,6 @@ blockcheain.info
 blockchein.bid
 blockedfbservice.16mb.com
 block-keywords.loopme.com
-Blocklistofhostnamesanddomainsforblockingads,trackersandothers(format:hosts--inhostsfileformat)</title>
 blockmetrics.com
 block.s2block.com
 block.s2blosh.com
@@ -14716,8 +14687,6 @@ bodelen.com
 bodenclothingukoutlet.com
 bodenstein.co.za
 bodranowelnaver.tk
-</body>
-<body>
 bodyandzon.se
 bodyclick.net
 bodydesign.com.au
@@ -17340,7 +17309,6 @@ cdn.adacado.com
 cdn.adasiaholdings.com
 cdn.adbert.info
 cdn.adbooth.net
-::cdn.adbrau.com
 cdn.adbrau.com
 cdn.adbro.me
 cdn.adbucks.com
@@ -17369,7 +17337,7 @@ cdn.adrunnr.com
 cdnads.cam4.com
 cdnads.com
 cdn.adservingsolutionsinc.com
-::cdn.adshexa.com
+cdn.adshexa.com
 cdn.adsoptimal.com
 cdn-adspot.tfgco.com
 cdn.adswizz.com.edgesuite.net
@@ -17504,7 +17472,7 @@ cdn.digitalpush.org
 cdn.digitru.st
 cdn.dimml.io
 cdn.directrev.com
-::cdn.directtrk.com
+cdn.directtrk.com
 cdn.discoveryad.castoola.tv
 cdn.districtm.ca
 cdn.dlyads.com
@@ -17617,7 +17585,6 @@ cdnjs.tvpage.com
 cdn.jubna.com
 cdn.justpremium.com
 cdn.kidoz.net
-::cdn.kixer.com
 cdn.kixer.com
 cdn.klasseo.com
 cdn.komoona.com
@@ -17741,7 +17708,6 @@ cdn.promo.pimproll.com
 cdn.promotionengine.com
 cdn-promox.plxnt.com
 cdnproviders.net
-::cdn.pubexchange.com
 cdn.pubexchange.com
 cdnpublic.mobidea.com
 cdn.public.pushspring.com
@@ -26595,10 +26561,6 @@ doubleclick3.xyz
 doubleclick5.xyz
 doubleclick6.xyz
 doubleclickbygoogle.com
-::doubleclick.com
-::doubleclick.de
-::doubleclick.ne.jp
-::doubleclick.net
 doubleclicks.me
 doubledeepclick.com
 doubleevery.net
@@ -31717,7 +31679,6 @@ fdxstats.xyz
 fdzsmfyy.com
 fdzylxffu.com
 fe4r7k22y68p.info
-fe80::1%lo0localhost
 fe95a992e6afb.com
 feadrope.net
 feaecebook.com
@@ -31950,12 +31911,7 @@ feyikogbonbabasala.net
 feylibertad.org
 fezbonvic.info
 fezbookz.tk
-ff00::0ip6-localnet
-ff00::0ip6-mcastprefix
 ff01s.cn
-ff02::1ip6-allnodes
-ff02::2ip6-allrouters
-ff02::3ip6-allhosts
 ff52e77ba517.com
 ff5bd8d9f8df.com
 ffa9.cn
@@ -38074,7 +38030,6 @@ hdxxpp.com
 hdzkjv.cn
 he2d.com
 heaaizwhm.com
-<head>
 headbidder.net
 header.tech
 headless.ebkfwd.com
@@ -39624,7 +39579,6 @@ htl.bid
 htlbid.com
 htlvvqlcqvq.com
 htm.freelogs.com
-</html>
 html5adkit.plusmo.s3.amazonaws.com
 htmlads.ru
 htmlads.s3.amazonaws.com
@@ -48627,8 +48581,6 @@ linkpuls.idg.no
 linkrain.com
 linkredirect.biz
 linkreferral.com
-<linkrel=alternatetype="application/rss+xml"title="Blocklistofhostnamesanddomainsforblockingads,trackersandothers(format:hosts--inhostsfileformat)(RSS-last50added)"href="rss/1.0/adservers.rss">
-<linkrel='stylesheet'href='/css/pgl.css'type='text/css'></head>
 link.ru
 links2revenue.com
 links.boom.ge
@@ -49135,7 +49087,6 @@ lobstersrq.com
 lobster.unionpeer.com
 loc1.hitsprocessor.com
 locaibitcons.info
-local
 localadbuy.com
 localbitcoins.live
 localbizvideo.biz
@@ -49144,7 +49095,6 @@ localedgemedia.com
 local-finders.com
 localfusion.secure.ownlocal.com
 localh0st.info
-localhost
 localhost.localdomain
 localinformation.site
 localisationing.com
@@ -52435,9 +52385,6 @@ metaltechnics.pl
 metalyzer.com
 metameets.eu
 metamx.com
-<metaname="author"value="PeterLowe;pgl@yoyo.org">
-<metaname="description"value="Blocklistofhostnamesanddomainsforblockingads,trackersandothers(format:hosts--inhostsfileformat)">
-<metaname="keywords"value="adblocking,blockingads,adservers,trackers,ads,banners,hostsfile,privacy">
 metanetwork.com
 metanetwork.net
 meta.osqa.net
@@ -64215,7 +64162,6 @@ pppppcha.webcindario.com
 ppp.trailers.contentdef.com
 ppqahjgkui.com
 pprcfwhlmtagay.com
-<p><pre>
 p.predictvideo.com
 pprincparts.com
 pprivate.suncappert.com
@@ -64352,7 +64298,6 @@ prd-collector-anon.playbuzz.com
 prd-collector-anon-video.playbuzz.com
 prd.innopage.com
 prdwebcollector.ruetracking.com
-</pre>
 preaf.jp
 preanalytication.com
 prebid.ants.vn
@@ -66049,7 +65994,6 @@ q1connect.com
 q1ilb0enze.ru
 q1k.ru
 q1media.com
-::q1mediahydraplatform.com
 q1mediahydraplatform.com
 q1xyxm89.com
 q1.yyxwzx.com
@@ -67405,7 +67349,6 @@ rdbd.xsread.com
 rd.captifymedia.com
 rdcespozlwv.com
 rd.clickshift.com
-rd.cockhero.info<html>
 rdcview.customgolfonline.com
 rd-direct.com
 rddywd.com
@@ -76007,7 +75950,6 @@ srv.adngin.com
 srvads.argentina.com
 srvadsnew.argentina.com
 srv-archive.ru
-::srv.bebi.com
 srv.bebi.com
 srvbytrking.com
 srv.carbonads.net
@@ -80643,7 +80585,6 @@ titan-man.pro
 titanpoker.com
 tithewtog.com
 titkoshirek.wordpress.com
-<title>
 titleefen.club
 title.mximg.com
 titless.igg.biz
@@ -81786,7 +81727,6 @@ traffictoadv.com
 traffictrack.de
 traffictrader.net
 traffictraders.com
-::traffic.trafficposse.com
 trafficular.com
 trafficvance.com
 trafficwave.net

@@ -8,7 +8,6 @@ set -o nounset
 
 
 
-##### FUNCTIONS #####
 ### install dos2unix function ###
 _var1func(){
 read --prompt $'\e[96mDo you want to install dos2unix? (Errors can occur, when files are in the wrong format) (y|n): \e[0m' var1
@@ -28,7 +27,6 @@ fi
 
 
 
-##### PREPARATION #####
 ### check for root privilges ###
 if [[ "${EUID}" -ne 0 ]]
 then
@@ -66,7 +64,6 @@ dos2unix --quiet ./regex-allowlist.txt
 
 
 
-##### DO STUFF #####
 ### get blocklists from 'blocklist-links' and 'custom-links' ###
 echo -e "\n<$(date +"%T")> Downloading Source Blocklists...\e[90m"
 wget --quiet --show-progress --output-document=- --input-file=./blocklist-links.txt > ./.blocklist-work0.txt
@@ -78,20 +75,23 @@ echo -e "\e[0m\n<$(date +"%T")> Sorting and Cleaning Blocklist..."
 sed --in-place 's/0\.0\.0\.0//g' ./.blocklist-work0.txt
 sed --in-place 's/127\.0\.0\.1//g' ./.blocklist-work0.txt
 sed --in-place 's/ //g' ./.blocklist-work0.txt
-sed --in-place 's/[[:blank:]]//g' ./.blocklist-work0.txt
-sed --in-place 's/[[:space:]]//g' ./.blocklist-work0.txt
-sed --in-place 's/#.*//g' ./.blocklist-work0.txt
-sort --unique ./.blocklist-work0.txt --output=./.blocklist-work1.txt
+sed --in-place 's/:://g' ./.blocklist-work0.txt				# ipv6
+sed --in-place 's/localhost$//g' ./.blocklist-work0.txt		# localhost
+sed --in-place 's/#.*//g' ./.blocklist-work0.txt			# comments
+sed --in-place '/</d' ./.blocklist-work0.txt				# remove stray html
+sed --in-place 's/[[:blank:]]//g' ./.blocklist-work0.txt	# horizontal space
+sed --in-place 's/[[:space:]]//g' ./.blocklist-work0.txt	# whitespace with newlines
+grep --extended-regexp "\." ./.blocklist-work0.txt > ./.blocklist-work1.txt
+sort --unique ./.blocklist-work1.txt --output=./.blocklist-work2.txt
 
 
-### apply 'regex-blocklist' and 'regex-allowlist' ###
+### apply 'regex-denylist' and 'regex-allowlist' ###
 echo -e "\n<$(date +"%T")> Applying RegEx Black- and Whitelist..."
-grep --extended-regexp --invert-match --file=./regex-denylist.txt ./.blocklist-work1.txt > ./.blocklist-work2.txt
-grep --extended-regexp --invert-match --file=./regex-allowlist.txt ./.blocklist-work2.txt > ./blocklist-fin.txt
+grep --extended-regexp --invert-match --file=./regex-denylist.txt ./.blocklist-work2.txt > ./.blocklist-work3.txt
+grep --extended-regexp --invert-match --file=./regex-allowlist.txt ./.blocklist-work3.txt > ./blocklist-fin.txt
 
 
 
-##### FINISHING #####
 ### reset files ###
 rm -rf ./.blocklist-work*
 echo -e "\n<$(date +"%T")> Finished\nExiting..."
