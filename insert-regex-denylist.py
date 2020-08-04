@@ -26,8 +26,11 @@ unix_time = int(time.time())
 # step 3: add regex-denylist entries
 regex_denylist = open('regex-denylist.txt', 'r').read().splitlines()    # open regex denylist file, but *not* in memory; strip newlines
 for line in regex_denylist:     # load lines of file one-by-one into memory
-    # disable "()...()" entries
-    db_cursor.execute("INSERT INTO domainlist VALUES ('%s', '3', '%s', '1', '%s', '%s', 'oljohnny_domainblocklist')" % (line_number, line, unix_time, unix_time))   # id, type, domain, enabled, date_added, date_modified, comment
+    if line.startswith("()"):   # disable "()...()" entries
+        enable_bit = 0
+    else:
+        enable_bit = 1
+    db_cursor.execute("INSERT INTO domainlist VALUES ('%s', '3', '%s', '%s', '%s', '%s', 'oljohnny_domainblocklist')" % (line_number, line, enable_bit, unix_time, unix_time))   # id, type, domain, enabled, date_added, date_modified, comment
     line_number += 1            # iterate unique line number
 
 # step 4: commit changes & close db connection
